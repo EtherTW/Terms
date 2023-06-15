@@ -12,24 +12,33 @@ struct Term {
 struct Terms {
     terms: Vec<Term>,
 }
+
+impl Terms {
+    fn from_file(path: &str) -> Result<Self, Box<dyn Error>> {
+        let contents = read_to_string(path)?;
+        let terms: Terms = from_str(&contents)?;
+        Ok(terms)
+    }
+
+    /// Sort the terms alphabetically by term
+    fn sort_terms(&mut self) {
+        self.terms
+            .sort_by(|a, b| a.term.to_lowercase().cmp(&b.term.to_lowercase()))
+    }
+
+    fn to_file(self, path: &str) -> Result<(), Box<dyn Error>> {
+        let contents = to_string(&self)?;
+        write(path, contents)?;
+        Ok(())
+    }
+}
+
 fn main() -> Result<(), Box<dyn Error>> {
-    // Read the TOML file
-    let contents = read_to_string("terms.toml")?;
+    let path = "terms.toml";
 
-    // Parse the TOML content
-    let terms: Terms = from_str(&contents)?;
-
-    // Sort the terms alphabetically by term
-    let mut sorted_terms = terms.clone();
-    sorted_terms
-        .terms
-        .sort_by(|a, b| a.term.to_lowercase().cmp(&b.term.to_lowercase()));
-
-    // Generate the sorted TOML content
-    let sorted_contents = to_string(&sorted_terms)?;
-
-    // Write the sorted TOML back to the file
-    write("terms.toml", sorted_contents)?;
+    let mut terms = Terms::from_file(path)?;
+    terms.sort_terms();
+    terms.to_file(path)?;
 
     Ok(())
 }

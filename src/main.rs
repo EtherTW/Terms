@@ -27,8 +27,8 @@ impl Terms {
         self.clone()
     }
 
-    fn to_file(self, path: &str) -> Result<(), Box<dyn Error>> {
-        let contents = to_string(&self)?;
+    fn to_file(&self, path: &str) -> Result<(), Box<dyn Error>> {
+        let contents = to_string(self)?;
         write(path, contents)?;
         Ok(())
     }
@@ -67,7 +67,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     let path = "terms.toml";
 
     let terms = Terms::from_file(path)?.sort_terms();
-    terms.clone().to_file(path)?;
+    terms.to_file(path)?;
 
     build_static_page(terms, "index.html");
 

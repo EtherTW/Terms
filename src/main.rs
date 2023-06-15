@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 use std::error::Error;
-use std::fs::{read_to_string, write};
+use std::fs::{self, read_to_string, write};
 use toml::{from_str, to_string};
 
 #[derive(Debug, Deserialize, Serialize, Clone)]
@@ -21,9 +21,10 @@ impl Terms {
     }
 
     /// Sort the terms alphabetically by term
-    fn sort_terms(&mut self) {
+    fn sort_terms(&mut self) -> Self {
         self.terms
-            .sort_by(|a, b| a.term.to_lowercase().cmp(&b.term.to_lowercase()))
+            .sort_by(|a, b| a.term.to_lowercase().cmp(&b.term.to_lowercase()));
+        self.clone()
     }
 
     fn to_file(self, path: &str) -> Result<(), Box<dyn Error>> {
@@ -33,12 +34,42 @@ impl Terms {
     }
 }
 
+fn build_static_page(terms: Terms, output_path: &str) {
+    // Generate the HTML output
+    let mut html = String::new();
+    html.push_str("<html>\n");
+    html.push_str("<head>\n");
+    html.push_str(r#"<meta charset="utf-8">"#);
+    html.push_str("<title>Translated Terms</title>\n");
+    html.push_str("</head>\n");
+    html.push_str("<body>\n");
+    html.push_str("<h1>Translated Terms</h1>\n");
+    html.push_str("<table>\n");
+    html.push_str("<tr><th>English Term</th><th>中文</th></tr>\n");
+
+    // Iterate over each term in the terms table and append to the HTML output
+    for term in terms.terms {
+        html.push_str("<tr>");
+        html.push_str(&format!("<td>{}</td>", term.term));
+        html.push_str(&format!("<td>{}</td>", term.translation));
+        html.push_str("</tr>\n");
+    }
+
+    html.push_str("</table>\n");
+    html.push_str("</body>\n");
+    html.push_str("</html>");
+
+    // Write the HTML output to a file
+    fs::write(output_path, html).expect("Failed to write terms.html");
+}
+
 fn main() -> Result<(), Box<dyn Error>> {
     let path = "terms.toml";
 
-    let mut terms = Terms::from_file(path)?;
-    terms.sort_terms();
-    terms.to_file(path)?;
+    let terms = Terms::from_file(path)?.sort_terms();
+    terms.clone().to_file(path)?;
+
+    build_static_page(terms, "index.html");
 
     Ok(())
 }

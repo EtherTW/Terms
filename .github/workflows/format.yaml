@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  rust_check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install Rust
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        override: true
+        components: clippy, rustfmt
+
+    - name: Check Rust formatting
+      run: |
+        cargo fmt -- --check
+
+    - name: Run Clippy
+      run: |
+        cargo clippy -- -D warnings
+
+    - name: Build check_terms
+      run: |
+        cd check_terms
+        cargo build
+        cargo run -- --check

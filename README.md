@@ -28,3 +28,12 @@
 本專案使用 [MIT 授權條款](LICENSE)。
 
 如有任何問題或建議，歡迎隨時提出。
+
+## Formatting
+
+自動排序
+
+```
+cd check_terms
+cargo run 
+```

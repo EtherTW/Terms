@@ -3,6 +3,10 @@ term = "Full Node"
 translation = "全節點"
 
 [[terms]]
+term = "Impermanent Loss"
+translation = "無常損失"
+
+[[terms]]
 term = "Merkle Tree"
 translation = "雜湊樹"
 

@@ -28,8 +28,7 @@ jobs:
       run: |
         cargo clippy -- -D warnings
 
-    - name: Build check_terms
+    - name: Check term sorting
       run: |
-        cd check_terms
         cargo build
         cargo run -- --check

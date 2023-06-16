@@ -1,14 +1,15 @@
 use serde::{Deserialize, Serialize};
+use std::env;
 use std::error::Error;
 use std::fs::{self, read_to_string, write};
 use toml::{from_str, to_string};
 
-#[derive(Debug, Deserialize, Serialize, Clone)]
+#[derive(Debug, Deserialize, Serialize, Clone, PartialEq)]
 struct Term {
     term: String,
     translation: String,
 }
-#[derive(Debug, Deserialize, Serialize, Clone)]
+#[derive(Debug, Deserialize, Serialize, Clone, PartialEq)]
 struct Terms {
     terms: Vec<Term>,
 }
@@ -64,12 +65,23 @@ fn build_static_page(terms: Terms, output_path: &str) {
 }
 
 fn main() -> Result<(), Box<dyn Error>> {
+    let args: Vec<String> = env::args().collect();
+    let check_only = args.len() > 1 && args[1] == "--check";
+
     let path = "terms.toml";
+    let mut terms = Terms::from_file(path)?;
 
-    let terms = Terms::from_file(path)?.sort_terms();
-    terms.to_file(path)?;
-
-    build_static_page(terms, "index.html");
+    if check_only {
+        // check #1: make sure terms are all sorted
+        let expected = terms.clone().sort_terms();
+        if terms != expected {
+            panic!("terms.toml is not sorted");
+        }
+        // more checks to be added
+    } else {
+        terms.sort_terms().to_file(path)?;
+        build_static_page(terms, "index.html");
+    }
 
     Ok(())
 }

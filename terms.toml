@@ -1,4 +1,20 @@
 [[terms]]
+term = "Back-run, Backrun, Backrunning"
+translation = "尾隨交易"
+
+[[terms]]
+term = "Builder"
+translation = "區塊建造者"
+
+[[terms]]
+term = "Bundle"
+translation = "交易同捆包"
+
+[[terms]]
+term = "Front-run, Frontrun, Frontrunning"
+translation = "搶跑交易、搶先交易"
+
+[[terms]]
 term = "Full Node"
 translation = "全節點"
 
@@ -11,5 +27,29 @@ term = "Merkle Tree"
 translation = "雜湊樹"
 
 [[terms]]
+term = "MEV Searcher"
+translation = "尋利者"
+
+[[terms]]
 term = "Nullifier"
 translation = "註銷碼"
+
+[[terms]]
+term = "Proof of Stake, PoS"
+translation = "權益證明"
+
+[[terms]]
+term = "Proposer"
+translation = "區塊發佈者"
+
+[[terms]]
+term = "Sandwich Attack"
+translation = "三明治夾擊"
+
+[[terms]]
+term = "Slash, Slashing"
+translation = "懲罰、罰款"
+
+[[terms]]
+term = "Validator"
+translation = "驗證者"

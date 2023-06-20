@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Translated Terms</title>
+    <!-- CSS only -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <style>
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+      }
+    </style>
+</head>
+<body class="d-flex flex-column h-100">
+    <div class="container" style="font-family: Inter;">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <h1 class="mt-4 mb-4 text-center" style="font-size: 2em;">區塊鏈詞彙中英翻譯<br>Blockchain Terms Translations</h1>
+                <p class="mb-4 text-center">
+                    Here, you'll find a comprehensive list of blockchain terms and their translations. We hope it's helpful and encourage you to contribute on <a href="https://github.com/EtherTW/Terms" target="_blank">GitHub</a>!
+                </p>
+                <input class="form-control" id="searchInput" type="text" placeholder="Search..">
+                <br>
+                <table class="table table-striped" id="termsTable">
+                    <thead>
+                      <tr>
+                        <th scope="col">English Term</th>
+                        <th scope="col">中文</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- TERMS_TABLE_PLACEHOLDER -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">© 2023 Taipei Ethereum Meetup. All rights reserved.</span>
+        </div>
+    </footer>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#searchInput").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("#termsTable tr").filter(function() {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+    });
+    </script>
+</body>
+</html>

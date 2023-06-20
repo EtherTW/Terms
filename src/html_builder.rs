@@ -17,7 +17,7 @@ fn generate_terms_table(terms: &Terms) -> String {
 }
 
 pub fn build_static_page(terms: &Terms, output_path: &str) -> Result<(), Box<dyn Error>> {
-    let mut template = fs::read_to_string("src/template.html")?;
+    let mut template = fs::read_to_string("build/template.html")?;
     let terms_table = generate_terms_table(terms);
     template = template.replace("<!-- TERMS_TABLE_PLACEHOLDER -->", &terms_table);
     let mut output_file = File::create(output_path)?;

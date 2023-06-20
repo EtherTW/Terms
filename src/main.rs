@@ -80,7 +80,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         // more checks to be added
     } else {
         terms.sort_terms().to_file(path)?;
-        build_static_page(terms, "index.html");
+        build_static_page(terms, "build/index.html");
     }
 
     Ok(())

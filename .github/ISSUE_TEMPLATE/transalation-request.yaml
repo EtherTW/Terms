@@ -1,0 +1,42 @@
+name: Translation Request
+description: Request / Propose translation for a new term
+title: "[Translation]: "
+labels: ["term"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this translation request!
+  - type: input
+    id: term
+    attributes:
+      label: English Term
+      description: The term you want to translate （欲翻譯之詞彙）
+      placeholder: ex. Ethereum, Layer2, front-running
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Where you saw this term, what context it was used in. (請提供看到此詞彙的英文上下文)
+      placeholder: Some example sentences!
+    validations:
+      required: false
+  
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Do you have any proposed translation for this term?
+    validations:
+      required: false 
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you acknowledge that your contribution will be under the terms of the Taipei Ethereum Meetup open-source community.
+      options:
+        - label: I agree to follow this project's Code of Conduct and acknowledge the contribution terms.
+          required: true

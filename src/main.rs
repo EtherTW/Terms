@@ -1,4 +1,3 @@
-// main.rs
 use std::env;
 use std::error::Error;
 
@@ -6,7 +5,7 @@ mod html_builder;
 mod terms;
 
 use html_builder::build_static_page;
-use terms::{Terms};
+use terms::Terms;
 
 fn main() -> Result<(), Box<dyn Error>> {
     let args: Vec<String> = env::args().collect();

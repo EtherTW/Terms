@@ -1,4 +1,3 @@
-// html_builder.rs
 use std::fs::{self, File};
 use std::io::Write;
 use std::error::Error;

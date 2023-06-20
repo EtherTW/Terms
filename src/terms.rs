@@ -1,4 +1,3 @@
-// terms.rs
 use serde::{Deserialize, Serialize};
 use std::error::Error;
 use std::fs::{read_to_string, write};

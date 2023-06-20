@@ -36,7 +36,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com), and you acknowledge that your contribution will be under the terms of the Taipei Ethereum Meetup open-source community.
+      description: By submitting this issue, you acknowledge that your contribution will be under the terms of the Taipei Ethereum Meetup open-source community.
       options:
         - label: I agree to follow this project's Code of Conduct and acknowledge the contribution terms.
           required: true

@@ -49,7 +49,7 @@ impl Terms {
 
     pub fn check_tag(tag: &str, tags: &[Tag]) -> bool {
         for valid_tag in tags {
-            if &valid_tag.id == tag {
+            if valid_tag.id == tag {
                 return true;
             }
         }

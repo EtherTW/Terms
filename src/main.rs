@@ -12,7 +12,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     let check_only = args.len() > 1 && args[1] == "--check";
 
     let path = "terms.toml";
-    let mut terms = Terms::from_file(path)?;
+    let mut terms = Terms::load_terms(path)?;
 
     if check_only {
         // check #1: make sure terms are all sorted
@@ -21,7 +21,8 @@ fn main() -> Result<(), Box<dyn Error>> {
         if terms != expected {
             panic!("terms.toml is not sorted");
         }
-        // more checks to be added
+        // check #2: make sure all tags are valid
+        Terms::check_all_tags(&terms.terms)?;
     } else {
         terms.sort_terms();
         terms.to_file(path)?;

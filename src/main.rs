@@ -5,7 +5,7 @@ mod html_builder;
 mod terms;
 
 use html_builder::build_static_page;
-use terms::Terms;
+use terms::{Tags, Terms};
 
 fn main() -> Result<(), Box<dyn Error>> {
     let args: Vec<String> = env::args().collect();
@@ -22,7 +22,8 @@ fn main() -> Result<(), Box<dyn Error>> {
             panic!("terms.toml is not sorted");
         }
         // check #2: make sure all tags are valid
-        Terms::check_all_tags(&terms.terms)?;
+        let tags = Tags::load_tags("tags.toml")?;
+        terms.check_all_tags(tags)?;
     } else {
         terms.sort_terms();
         terms.to_file(path)?;

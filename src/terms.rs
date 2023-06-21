@@ -34,26 +34,15 @@ impl Terms {
     }
 
     /// takes in terms, load tags and check if there's any illegal tags
-    pub fn check_all_tags(terms: &[Term]) -> Result<(), Box<dyn Error>> {
-        let contents = read_to_string("tags.toml")?;
-        let tags: Tags = from_str(&contents)?;
-        for term in terms {
+    pub fn check_all_tags(&self, tags: Tags) -> Result<(), Box<dyn Error>> {
+        for term in &self.terms {
             for tag in &term.tags {
-                if !Self::check_tag(tag, &tags.tags) {
+                if !tags.check_tag(tag) {
                     panic!("Illegal tag '{}' in term '{}'", tag, term.term);
                 }
             }
         }
         Ok(())
-    }
-
-    pub fn check_tag(tag: &str, tags: &[Tag]) -> bool {
-        for valid_tag in tags {
-            if valid_tag.id == tag {
-                return true;
-            }
-        }
-        false
     }
 
     /// Sort the terms alphabetically by term
@@ -66,5 +55,22 @@ impl Terms {
         let contents = to_string(self)?;
         write(path, contents)?;
         Ok(())
+    }
+}
+
+impl Tags {
+    pub fn load_tags(path: &str) -> Result<Self, Box<dyn Error>> {
+        let contents = read_to_string(path)?;
+        let tags: Tags = from_str(&contents)?;
+        Ok(tags)
+    }
+
+    pub fn check_tag(&self, tag: &str) -> bool {
+        for valid_tag in &self.tags {
+            if valid_tag.id == tag {
+                return true;
+            }
+        }
+        false
     }
 }

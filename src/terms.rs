@@ -6,6 +6,7 @@ use toml::{from_str, to_string};
 #[derive(Debug, Deserialize, Serialize, Clone, PartialEq)]
 pub struct Term {
     pub term: String,
+    pub tags: Vec<String>,
     pub translation: String,
 }
 
@@ -14,11 +15,34 @@ pub struct Terms {
     pub terms: Vec<Term>,
 }
 
+#[derive(Debug, Deserialize, Serialize, PartialEq)]
+pub struct Tag {
+    pub id: String,
+    pub description: String,
+}
+
+#[derive(Debug, Deserialize, Serialize, PartialEq)]
+pub struct Tags {
+    pub tags: Vec<Tag>,
+}
+
 impl Terms {
-    pub fn from_file(path: &str) -> Result<Self, Box<dyn Error>> {
+    pub fn load_terms(path: &str) -> Result<Self, Box<dyn Error>> {
         let contents = read_to_string(path)?;
         let terms: Terms = from_str(&contents)?;
         Ok(terms)
+    }
+
+    /// takes in terms, load tags and check if there's any illegal tags
+    pub fn check_all_tags(&self, tags: Tags) -> Result<(), Box<dyn Error>> {
+        for term in &self.terms {
+            for tag in &term.tags {
+                if !tags.check_tag(tag) {
+                    panic!("Illegal tag '{}' in term '{}'", tag, term.term);
+                }
+            }
+        }
+        Ok(())
     }
 
     /// Sort the terms alphabetically by term
@@ -31,5 +55,22 @@ impl Terms {
         let contents = to_string(self)?;
         write(path, contents)?;
         Ok(())
+    }
+}
+
+impl Tags {
+    pub fn load_tags(path: &str) -> Result<Self, Box<dyn Error>> {
+        let contents = read_to_string(path)?;
+        let tags: Tags = from_str(&contents)?;
+        Ok(tags)
+    }
+
+    pub fn check_tag(&self, tag: &str) -> bool {
+        for valid_tag in &self.tags {
+            if valid_tag.id == tag {
+                return true;
+            }
+        }
+        false
     }
 }

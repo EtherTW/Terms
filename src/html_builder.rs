@@ -10,6 +10,16 @@ fn generate_terms_table(terms: &Terms) -> String {
         table.push_str("<tr>");
         table.push_str(&format!("<td>{}</td>", term.term));
         table.push_str(&format!("<td>{}</td>", term.translation));
+        // cell for tags
+        table.push_str("<td>");
+        for tag in &term.tags {
+            // Each tag is a span with the class "badge" and a unique class based on the tag's name (id)
+            table.push_str(&format!(
+                "<span class='badge badge-{}'>{}</span> ",
+                tag, tag
+            ));
+        }
+        table.push_str("</td>");
         table.push_str("</tr>\n");
     }
     table

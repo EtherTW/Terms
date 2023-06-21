@@ -18,6 +18,16 @@
         width: 100%;
         text-align: center;
       }
+      .badge {
+        opacity: 70%;
+      }
+      #termsTable tbody tr {
+        display: none;
+      }
+
+      #termsTable tbody tr.filtered {
+        display: table-row;
+      }
     </style>
 </head>
 <body class="d-flex flex-column h-100">
@@ -32,11 +42,18 @@
                 <!-- Search bar -->
                 <input class="form-control" id="searchInput" type="text" placeholder="Search..">
                 <br>
+                <!-- Reset Button -->
+                <div class="d-flex justify-content-end mb-2">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" id="resetButton">Reset filter</button>
+                </div>
+                <br>
+                <!-- Table -->
                 <table class="table table-striped" id="termsTable">
                     <thead>
                       <tr>
                         <th scope="col">English Term</th>
                         <th scope="col">中文</th>
+                        <th scope="col">Tags</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -52,22 +69,15 @@
     <footer class="footer mt-auto py-3 bg-light">
         <div class="container">
             <span class="text-muted">Made with ❤️ by <a href="https://twitter.com/eth_taipei" target="_blank">Taipei Ethereum</a> @ <a href="https://github.com/EtherTW/Terms/blob/main/LICENSE" target="_blank">MIT</a>.</span>
-
         </div>
     </footer>
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script>
-    $(document).ready(function(){
-      $("#searchInput").on("keyup", function() {
-        var value = $(this).val().toLowerCase();
-        $("#termsTable tr").filter(function() {
-          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-        });
-      });
-    });
-    </script>
+
+    <!-- Load custom scripts after loading jQuery -->
+    <script src="./search.js"></script> 
+    <script src="./tags.js"></script>
 </body>
 </html>

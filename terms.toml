@@ -1,55 +1,69 @@
 [[terms]]
 term = "Back-run, Backrun, Backrunning"
+tags = ["mev"]
 translation = "尾隨交易"
 
 [[terms]]
 term = "Builder"
+tags = ["mev"]
 translation = "區塊建造者"
 
 [[terms]]
 term = "Bundle"
+tags = ["mev"]
 translation = "交易同捆包"
 
 [[terms]]
 term = "Front-run, Frontrun, Frontrunning"
+tags = ["mev"]
 translation = "搶跑交易、搶先交易"
 
 [[terms]]
 term = "Full Node"
+tags = ["protocol"]
 translation = "全節點"
 
 [[terms]]
 term = "Impermanent Loss"
+tags = ["defi"]
 translation = "無常損失"
 
 [[terms]]
 term = "Merkle Tree"
+tags = []
 translation = "雜湊樹"
 
 [[terms]]
 term = "MEV Searcher"
+tags = ["mev"]
 translation = "尋利者"
 
 [[terms]]
 term = "Nullifier"
+tags = ["zk"]
 translation = "註銷碼"
 
 [[terms]]
 term = "Proof of Stake, PoS"
+tags = ["protocol"]
 translation = "權益證明"
 
 [[terms]]
 term = "Proposer"
+tags = ["protocol"]
 translation = "區塊發佈者"
 
 [[terms]]
 term = "Sandwich Attack"
+tags = ["mev"]
 translation = "三明治夾擊"
 
 [[terms]]
 term = "Slash, Slashing"
+tags = ["protocol"]
 translation = "懲罰、罰款"
 
 [[terms]]
 term = "Validator"
+tags = ["protocol"]
 translation = "驗證者"

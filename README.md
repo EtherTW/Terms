@@ -10,11 +10,12 @@
 
 1. 請在 `terms.toml` 文件中按字母順序加入你的翻譯。每一行代表一個專有名詞，格式如下：
 
-
    - TOML 格式：
-     ```
+
+     ```toml
      [[terms]]
      term = "英文專有名詞"
+     tags = ["tag1", "tag2"]
      translation = "中文翻譯"
      ```
 

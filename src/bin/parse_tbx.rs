@@ -1,8 +1,9 @@
-use std::fs;
+use std::{fs::{self, File}, io::Write};
 
 use regex::Regex;
 use serde::Deserialize;
 use serde_xml_rs::from_str;
+use terms::terms::{Term, Terms};
 
 #[derive(Debug, Deserialize)]
 struct LangSet {
@@ -48,22 +49,35 @@ fn main() {
 
     let parsed: Result<martif, serde_xml_rs::Error> = from_str(&xml_str);
 
+    let path = "terms.toml";
+    let mut terms = Terms::load_terms(path).unwrap();
+
+    let file_path = "untranslated.txt";
+    let mut untranslated = File::create(file_path).unwrap();
+
     match parsed {
         Ok(data) => {
             // Iterate through langSet elements and print zh-TW translations
             for entry in data.text.body.term_entry.iter() {
                 let en = entry.lang_set.iter().find(|lang_set| lang_set.lang == "en");
-                let zhTW = entry
+                let zh_tw = entry
                     .lang_set
                     .iter()
                     .find(|lang_set| lang_set.lang == "zh-TW");
                 if let Some(en) = en {
-                    println!(
-                        "{} -> {}",
-                        en.tig.term,
-                        zhTW.map(|lang_set| lang_set.tig.term.to_string())
-                            .unwrap_or_default()
-                    );
+                    if let Some(zh_tw) = zh_tw {
+                        let term = Term {
+                            term: en.tig.term.to_string(),
+                            tags: vec![],
+                            translation: zh_tw.tig.term.to_string(),
+                        };
+                        terms.terms.push(term);
+                    } else {
+                        let line = format!("untranslated: {}", en.tig.term);
+                        println!("{}", line);
+                        untranslated.write_all(line.as_bytes());
+                        untranslated.write_all(b"\n");
+                    }
                 }
             }
         }
@@ -71,6 +85,8 @@ fn main() {
             eprintln!("Error parsing XML: {:?}", e);
         }
     }
+    terms.sort_terms();
+    terms.to_file(path).unwrap();
 }
 
 #[derive(Debug, Deserialize)]

@@ -1,7 +1,7 @@
 # Run the main script
 .PHONY: run
 run:
-	cargo run --release
+	cargo run --release --bin terms
 
 
 # Default target

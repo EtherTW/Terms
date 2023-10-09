@@ -21,13 +21,13 @@ struct Tig {
     #[serde(rename = "term")]
     term: String,
     #[serde(rename = "termNote")]
-    term_note: Option<TermNote>,
+    _term_note: Option<TermNote>,
 }
 
 #[derive(Debug, Deserialize)]
 struct TermNote {
     #[serde(rename = "type")]
-    note_type: String,
+    _note_type: String,
 }
 
 fn main() {
@@ -78,8 +78,8 @@ fn main() {
                     } else {
                         let line = format!("untranslated: {}", en.tig.term);
                         println!("{}", line);
-                        untranslated.write_all(line.as_bytes());
-                        untranslated.write_all(b"\n");
+                        untranslated.write_all(line.as_bytes()).unwrap();
+                        untranslated.write_all(b"\n").unwrap();
                     }
                 }
             }
@@ -93,9 +93,10 @@ fn main() {
 }
 
 #[derive(Debug, Deserialize)]
+#[allow(non_camel_case_types)]
 struct martif {
     #[serde(rename = "xmllang")]
-    lang: String,
+    _lang: String,
     #[serde(rename = "text")]
     text: Text,
 }

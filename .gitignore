@@ -1,3 +1,4 @@
 /target
 index.html
 build/index.html
+*.tbx

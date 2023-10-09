@@ -1,0 +1,30 @@
+untranslated: Deed
+untranslated: Entropy
+untranslated: Ether
+untranslated: Lightweight client
+untranslated: Open short
+untranslated: On-chain
+untranslated: Set
+untranslated: Bootcamp
+untranslated: Mempool
+untranslated: Slashing
+untranslated: Debloat
+untranslated: Pool
+untranslated: Mint
+untranslated: Consensus layer
+untranslated: Cryptographic
+untranslated: Distributed ledger
+untranslated: Non-fungible token
+untranslated: Consensus client
+untranslated: Decentralized autonomous organizations
+untranslated: Execution client
+untranslated: Execution layer
+untranslated: Contract address
+untranslated: Oracle
+untranslated: Faucet
+untranslated: Soft fork
+untranslated: Zero-knowledge proof
+untranslated: Proof-of-work
+untranslated: Decentralized applications
+untranslated: PR
+untranslated: Hero

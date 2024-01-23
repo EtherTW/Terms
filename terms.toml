@@ -19,39 +19,9 @@ tags = []
 translation = "帳戶"
 
 [[terms]]
-term = "ACH"
-tags = []
-translation = "自動票據交換所"
-
-[[terms]]
 term = "Address"
 tags = []
 translation = "地址"
-
-[[terms]]
-term = "Aggregation"
-tags = []
-translation = "匯總"
-
-[[terms]]
-term = "Alchemy"
-tags = []
-translation = "Alchemy"
-
-[[terms]]
-term = "Algorithm"
-tags = []
-translation = "演算法"
-
-[[terms]]
-term = "API"
-tags = []
-translation = "應用程式介面（API）"
-
-[[terms]]
-term = "Application"
-tags = []
-translation = "應用程式"
 
 [[terms]]
 term = "ASICs"
@@ -66,12 +36,7 @@ translation = "攻擊者"
 [[terms]]
 term = "Attestation"
 tags = []
-translation = "證明"
-
-[[terms]]
-term = "Attesting"
-tags = []
-translation = "證明"
+translation = "見證"
 
 [[terms]]
 term = "Back-run, Backrun, Backrunning"
@@ -89,19 +54,9 @@ tags = []
 translation = "餘額"
 
 [[terms]]
-term = "Bankless podcast"
-tags = []
-translation = "Bankless podcast"
-
-[[terms]]
 term = "Base fee"
 tags = []
 translation = "基本費用"
-
-[[terms]]
-term = "Baseline"
-tags = []
-translation = "Baseline"
 
 [[terms]]
 term = "Beacon Chain"
@@ -111,22 +66,17 @@ translation = "信標鏈"
 [[terms]]
 term = "Beam"
 tags = []
-translation = "光束同步-一種同步模式，可以讓你走得更快。"
-
-[[terms]]
-term = "Best practice"
-tags = []
-translation = "最佳案例"
+translation = "光束同步"
 
 [[terms]]
 term = "Big-endian"
 tags = []
-translation = "Big-endian"
+translation = "大端序"
 
 [[terms]]
 term = "BIPs"
 tags = []
-translation = "比特幣改進提案 (BIP)"
+translation = "比特幣改進提案"
 
 [[terms]]
 term = "Bitcoin"
@@ -149,39 +99,14 @@ tags = []
 translation = "區塊鏈"
 
 [[terms]]
-term = "Bond"
+term = "Bootstrap Nodes"
 tags = []
-translation = "連結綁定"
-
-[[terms]]
-term = "Bootstrap"
-tags = []
-translation = "啟動"
-
-[[terms]]
-term = "Borrow"
-tags = []
-translation = "借入"
-
-[[terms]]
-term = "Bounded above"
-tags = []
-translation = "有上界"
-
-[[terms]]
-term = "Bounded below"
-tags = []
-translation = "有下界"
+translation = "啟動節點"
 
 [[terms]]
 term = "Bounty"
 tags = []
 translation = "懸賞"
-
-[[terms]]
-term = "Brand Assets"
-tags = []
-translation = "品牌資產"
 
 [[terms]]
 term = "Builder"
@@ -194,11 +119,6 @@ tags = ["mev"]
 translation = "交易同捆包"
 
 [[terms]]
-term = "Button"
-tags = []
-translation = "按鍵"
-
-[[terms]]
 term = "Byte"
 tags = []
 translation = "位元組"
@@ -209,14 +129,9 @@ tags = []
 translation = "位元組碼"
 
 [[terms]]
-term = "Bytes"
-tags = []
-translation = "字節位元組"
-
-[[terms]]
 term = "Byzantium fork"
 tags = []
-translation = "Byzantium 分叉"
+translation = "拜占庭升級"
 
 [[terms]]
 term = "Centralized exchanges"
@@ -226,44 +141,17 @@ translation = "中央化交易所"
 [[terms]]
 term = "Chaumian Blinding"
 tags = []
-translation = "喬姆盲簽 (Chaumian Blinding)"
-
-[[terms]]
-term = "Cheatsheet"
-tags = []
-translation = "快捷手冊"
-
-[[terms]]
-term = "CLI"
-tags = []
-translation = """
-命令列介面
-命令列介面以文字行的形式向電腦程式處理命令。"""
+translation = "喬姆盲簽"
 
 [[terms]]
 term = "Clients"
 tags = []
-translation = "用戶端"
-
-[[terms]]
-term = "Cloud"
-tags = []
-translation = "雲端"
-
-[[terms]]
-term = "Cloud computing"
-tags = []
-translation = "雲端運算"
-
-[[terms]]
-term = "Code"
-tags = []
-translation = "程式碼"
+translation = "客戶端"
 
 [[terms]]
 term = "Collateral"
 tags = []
-translation = "抵押"
+translation = "抵押品"
 
 [[terms]]
 term = "Collectible"
@@ -293,7 +181,7 @@ translation = "可組合性"
 [[terms]]
 term = "Composable"
 tags = []
-translation = "構成可能"
+translation = "可組合"
 
 [[terms]]
 term = "Consensus"
@@ -316,14 +204,9 @@ tags = []
 translation = "一致性"
 
 [[terms]]
-term = "Console"
-tags = []
-translation = "主機"
-
-[[terms]]
 term = "Constantinople fork"
 tags = []
-translation = "Constantinople 分叉"
+translation = "君士坦丁堡升級"
 
 [[terms]]
 term = "Contract account"
@@ -333,82 +216,32 @@ translation = "合約帳戶"
 [[terms]]
 term = "Contract creation transaction"
 tags = []
-translation = "合約建立交易"
-
-[[terms]]
-term = "Contributor"
-tags = []
-translation = "貢獻者"
-
-[[terms]]
-term = "create-eth-app"
-tags = []
-translation = "create-eth-app"
-
-[[terms]]
-term = "Creator"
-tags = []
-translation = "創始人"
+translation = "合約創建交易"
 
 [[terms]]
 term = "Crosslink"
 tags = []
-translation = "交叉鏈接"
-
-[[terms]]
-term = "Crosslinks"
-tags = []
 translation = "交聯"
-
-[[terms]]
-term = "Crypto Pizza"
-tags = []
-translation = "Crypto Pizza"
-
-[[terms]]
-term = "Cryptocurrencies"
-tags = []
-translation = "加密貨幣"
 
 [[terms]]
 term = "Cryptocurrency"
 tags = []
-translation = "加密貨幣"
+translation = "密碼學貨幣"
 
 [[terms]]
 term = "Cryptoeconomics"
 tags = []
-translation = "加密經濟學"
-
-[[terms]]
-term = "Cryptography"
-tags = []
-translation = "密碼學"
+translation = "密碼經濟學"
 
 [[terms]]
 term = "CWE"
 tags = []
-translation = "CWE"
+translation = "通用缺陷列表"
 
 [[terms]]
 term = "Dai"
 tags = []
 translation = "Dai"
-
-[[terms]]
-term = "DAO"
-tags = []
-translation = "DAO"
-
-[[terms]]
-term = "dApps"
-tags = []
-translation = "dApps"
-
-[[terms]]
-term = "Data structure"
-tags = []
-translation = "數據結構"
 
 [[terms]]
 term = "Decentralized application"
@@ -423,17 +256,12 @@ translation = "去中央化自治組織(DAO)"
 [[terms]]
 term = "Decentralized exchange (DEX)"
 tags = []
-translation = "去中央化交易所(DEX)"
+translation = "去中央化交易所"
 
 [[terms]]
 term = "Decentralized finance"
 tags = []
 translation = "去中央化金融"
-
-[[terms]]
-term = "DeFi"
-tags = []
-translation = "DeFi"
 
 [[terms]]
 term = "Deploy"
@@ -446,129 +274,34 @@ tags = []
 translation = "Devcon"
 
 [[terms]]
-term = "Developer"
-tags = []
-translation = "開發者"
-
-[[terms]]
-term = "DEX"
-tags = []
-translation = "DEX"
-
-[[terms]]
-term = "Different"
-tags = []
-translation = "不同的"
-
-[[terms]]
 term = "Difficulty"
 tags = []
-translation = "難度"
+translation = "挖礦難度"
 
 [[terms]]
 term = "Difficulty bomb"
 tags = []
-translation = "難度爆彈"
-
-[[terms]]
-term = "Digital money"
-tags = []
-translation = "數位貨幣"
+translation = "難度炸彈"
 
 [[terms]]
 term = "Digital signature"
 tags = []
-translation = "數位簽名"
-
-[[terms]]
-term = "Documentation"
-tags = []
-translation = "文件"
-
-[[terms]]
-term = "ECSDA"
-tags = []
-translation = "ECSDA"
-
-[[terms]]
-term = "EEA"
-tags = []
-translation = "EEA"
-
-[[terms]]
-term = "EF"
-tags = []
-translation = "EF"
-
-[[terms]]
-term = "EIP"
-tags = []
-translation = "EIP"
+translation = "數位簽章"
 
 [[terms]]
 term = "Elliptic curve digital signature algorithm"
 tags = []
-translation = "橢圓曲線數位簽名演算法"
-
-[[terms]]
-term = "Empty string"
-tags = []
-translation = "空字串"
-
-[[terms]]
-term = "ENS"
-tags = []
-translation = "ENS"
-
-[[terms]]
-term = "Enterprise"
-tags = []
-translation = "企業"
-
-[[terms]]
-term = "EOA"
-tags = []
-translation = "EOA"
+translation = "橢圓曲線簽章演算法"
 
 [[terms]]
 term = "Epoch"
 tags = []
-translation = "時期(epoch)"
-
-[[terms]]
-term = "ERC"
-tags = []
-translation = "ERC"
-
-[[terms]]
-term = "ERC-1155"
-tags = []
-translation = "ERC-1155"
-
-[[terms]]
-term = "ERC-20"
-tags = []
-translation = "ERC-20"
-
-[[terms]]
-term = "ERC-721"
-tags = []
-translation = "ERC-721"
-
-[[terms]]
-term = "ERC-777"
-tags = []
-translation = "ERC-777"
+translation = "時期"
 
 [[terms]]
 term = "Escrow"
 tags = []
 translation = "代管"
-
-[[terms]]
-term = "ETH"
-tags = []
-translation = "ETH"
 
 [[terms]]
 term = "Ethash"
@@ -588,7 +321,7 @@ translation = "以太坊基金會"
 [[terms]]
 term = "Ethereum Improvement Proposal (EIP)"
 tags = []
-translation = "Ethereum 改進提案 (EIP)"
+translation = "以太坊改進提案"
 
 [[terms]]
 term = "Ethereum Improvement Proposals"
@@ -598,42 +331,17 @@ translation = "Ethereum 改進提案"
 [[terms]]
 term = "Ethereum Name Service (ENS)"
 tags = []
-translation = "Ethereum 名稱服務 (ENS)"
+translation = "以太坊域名服務"
 
 [[terms]]
 term = "Ethereum Request for Comments (ERC)"
 tags = []
-translation = "Ethereum 開發者公開徵求意見 (ERC)"
-
-[[terms]]
-term = "Ethereum stack"
-tags = []
-translation = "以太坊技術堆棧"
+translation = "以太坊開發者公開徵求意見 (ERC)"
 
 [[terms]]
 term = "Ethereum Virtual Machine"
 tags = []
-translation = "以太坊虛擬機（EVM）"
-
-[[terms]]
-term = "Ethereum Virtual Machine (EVM)"
-tags = []
-translation = "Ethereum 虛擬機 (EVM)"
-
-[[terms]]
-term = "ethereum.org"
-tags = []
-translation = "ethereum.org"
-
-[[terms]]
-term = "Etherflow"
-tags = []
-translation = "Etherflow"
-
-[[terms]]
-term = "Ethers"
-tags = []
-translation = "Ethers"
+translation = "以太坊虛擬機"
 
 [[terms]]
 term = "Events"
@@ -641,19 +349,9 @@ tags = []
 translation = "事件"
 
 [[terms]]
-term = "EVM"
-tags = []
-translation = "EVM"
-
-[[terms]]
 term = "EVM assembly language"
 tags = []
-translation = "EVM 組譯語言"
-
-[[terms]]
-term = "Exchange"
-tags = []
-translation = "交換"
+translation = "EVM 組合語言"
 
 [[terms]]
 term = "Externally owned account (EOA)"
@@ -661,19 +359,9 @@ tags = []
 translation = "外部帳戶 (EOA)"
 
 [[terms]]
-term = "Externally-owned"
-tags = []
-translation = "外部擁有的"
-
-[[terms]]
 term = "Fallback function"
 tags = []
-translation = "遞補函數"
-
-[[terms]]
-term = "Feedback"
-tags = []
-translation = "意見回饋"
+translation = "預設函式"
 
 [[terms]]
 term = "Fiat currency"
@@ -681,39 +369,14 @@ tags = []
 translation = "法定貨幣"
 
 [[terms]]
-term = "Field"
-tags = []
-translation = "欄位"
-
-[[terms]]
 term = "Finality"
 tags = []
 translation = "最終性"
 
 [[terms]]
-term = "Financial assets"
-tags = []
-translation = "金融資產"
-
-[[terms]]
-term = "Finney"
-tags = []
-translation = "Finney"
-
-[[terms]]
-term = "First-to-file"
-tags = []
-translation = "首先申請"
-
-[[terms]]
 term = "Fork"
 tags = []
 translation = "分叉"
-
-[[terms]]
-term = "FOSS"
-tags = []
-translation = "FOSS"
 
 [[terms]]
 term = "Fraud proof"
@@ -731,11 +394,6 @@ tags = []
 translation = "預先交易"
 
 [[terms]]
-term = "Frontend"
-tags = []
-translation = "前端"
-
-[[terms]]
 term = "Frontier"
 tags = []
 translation = "前沿"
@@ -744,11 +402,6 @@ translation = "前沿"
 term = "Full Node"
 tags = ["protocol"]
 translation = "全節點"
-
-[[terms]]
-term = "Functionality"
-tags = []
-translation = "功能"
 
 [[terms]]
 term = "Gas"
@@ -763,12 +416,7 @@ translation = "燃料限制"
 [[terms]]
 term = "Genesis"
 tags = []
-translation = "創世塊"
-
-[[terms]]
-term = "Genesis block"
-tags = []
-translation = "初始區塊"
+translation = "創世區塊"
 
 [[terms]]
 term = "Geth"
@@ -781,14 +429,9 @@ tags = []
 translation = "GHOST"
 
 [[terms]]
-term = "Glyph"
-tags = []
-translation = "象形文"
-
-[[terms]]
 term = "Governance"
 tags = []
-translation = "管理體系"
+translation = "治理"
 
 [[terms]]
 term = "Gwei"
@@ -798,7 +441,7 @@ translation = "Gwei"
 [[terms]]
 term = "Hard fork"
 tags = []
-translation = "強分叉"
+translation = "硬分叉"
 
 [[terms]]
 term = "Hash"
@@ -808,42 +451,17 @@ translation = "雜湊值"
 [[terms]]
 term = "HD wallet"
 tags = []
-translation = "身份錢包（HD 錢包）"
-
-[[terms]]
-term = "Hedging"
-tags = []
-translation = "避險"
-
-[[terms]]
-term = "Help"
-tags = []
-translation = "幫助"
+translation = "HD 錢包"
 
 [[terms]]
 term = "Hexadecimal literals"
 tags = []
-translation = "十六進位常值"
-
-[[terms]]
-term = "Home"
-tags = []
-translation = "首頁"
+translation = "十六進位值"
 
 [[terms]]
 term = "Homestead"
 tags = []
-translation = "個人莊園"
-
-[[terms]]
-term = "Hyperledger"
-tags = []
-translation = "Hyperledger"
-
-[[terms]]
-term = "ICAP"
-tags = []
-translation = "ICAP"
+translation = "家園"
 
 [[terms]]
 term = "Ice Age"
@@ -851,69 +469,14 @@ tags = []
 translation = "冰河期"
 
 [[terms]]
-term = "IDE"
-tags = []
-translation = "IDE"
-
-[[terms]]
-term = "Immutable deployed code problem"
-tags = []
-translation = "不可變的部署程式碼問題"
-
-[[terms]]
 term = "Impermanent Loss"
 tags = ["defi"]
 translation = "無常損失"
 
 [[terms]]
-term = "Integer overflow"
-tags = []
-translation = "整數溢位"
-
-[[terms]]
-term = "Integrated development environment (IDE)"
-tags = []
-translation = "整合開發環境 (IDE)"
-
-[[terms]]
-term = "Inter-exchange Client Address Protocol (ICAP)"
-tags = []
-translation = "交易所間用戶地址協議 (ICAP)"
-
-[[terms]]
 term = "Internal transaction"
 tags = []
 translation = "內部交易"
-
-[[terms]]
-term = "Internalize"
-tags = []
-translation = "內化"
-
-[[terms]]
-term = "IPFS"
-tags = []
-translation = "IPFS"
-
-[[terms]]
-term = "IR"
-tags = []
-translation = "IR"
-
-[[terms]]
-term = "Iterative"
-tags = []
-translation = "疊代"
-
-[[terms]]
-term = "Just-in-time compilation"
-tags = []
-translation = "即時編譯"
-
-[[terms]]
-term = "KDF"
-tags = []
-translation = "KDF"
 
 [[terms]]
 term = "Keccak-256"
@@ -933,7 +496,7 @@ translation = "密鑰存儲檔案"
 [[terms]]
 term = "Kilobytes"
 tags = []
-translation = "千字節"
+translation = "千位元組"
 
 [[terms]]
 term = "Last-in-first-out"
@@ -953,7 +516,7 @@ translation = "分層"
 [[terms]]
 term = "Layer 2"
 tags = []
-translation = "Layer 2"
+translation = "第二層"
 
 [[terms]]
 term = "Ledger"
@@ -961,82 +524,14 @@ tags = []
 translation = "帳本"
 
 [[terms]]
-term = "Lend"
-tags = []
-translation = """
-释放贷款
-存入资金以不断获取利息"""
-
-[[terms]]
-term = "Lending"
-tags = []
-translation = """
-借贷
-存入资金以不断获取利息"""
-
-[[terms]]
 term = "Lending pool"
-tags = []
+tags = ["defi"]
 translation = "借貸池"
-
-[[terms]]
-term = "LevelDB"
-tags = []
-translation = "LevelDB"
-
-[[terms]]
-term = "Leverage"
-tags = []
-translation = """
-交易（多頭和空頭頭寸）
-投資者可以買入（做多）或賣出（做空）。
-杠杆作用可以應用於兩個職位
-多頭（買入）
--交易員購買一項資產，並在價格上漲時等待出售
-賣空（“賣出”或“賣空”）
--交易員在買入之前先賣出資產，希望價格會下跌。﻿ (如果他們付出的價格低於他們賣出的價格，他們就會獲得利潤。
--在金融市場上，你可以先買後賣，或者先賣後買。
-https://www.thebalance.com/long-and-short-trading-term-definitions-1031122
-初學者杠杆交易
-理解杠杆交易的一個簡單方法是，將杠杆交易視為能够打開一個比您打開該頭寸所冒的初始保證金更值錢的頭寸（如果你1.000美元的杠杆是10倍，那麼你實際上處於10.000美元的位置；如果股票上漲1%，你就可以在你的初始存款上獲得10%的利潤（t=100美元…）
-https://www.bitcoinsensus.com/bybit-tutorial/
-https://dydx.exchange/
-羅馬尼亞人https://www.etoro.com/ro/trading/academy/leverage-margin/"""
-
-[[terms]]
-term = "Leveraged position"
-tags = []
-translation = "槓桿融資"
-
-[[terms]]
-term = "Library"
-tags = []
-translation = "庫"
-
-[[terms]]
-term = "Light"
-tags = []
-translation = "光線"
-
-[[terms]]
-term = "List"
-tags = []
-translation = "清單"
 
 [[terms]]
 term = "Liveness"
 tags = []
 translation = "活躍性"
-
-[[terms]]
-term = "Lockstep"
-tags = []
-translation = "鎖步"
-
-[[terms]]
-term = "Lower bound"
-tags = []
-translation = "下界"
 
 [[terms]]
 term = "Mainnet"
@@ -1049,14 +544,9 @@ tags = []
 translation = "惡意"
 
 [[terms]]
-term = "Merchant"
-tags = []
-translation = "商家"
-
-[[terms]]
 term = "Merkle Patricia tree"
 tags = []
-translation = "Merkle Patricia 樹狀結構"
+translation = "字首雜湊樹"
 
 [[terms]]
 term = "Merkle Tree"
@@ -1071,12 +561,12 @@ translation = "訊息"
 [[terms]]
 term = "Message call"
 tags = []
-translation = "訊息調用"
+translation = "訊息呼叫"
 
 [[terms]]
 term = "Metropolis"
 tags = []
-translation = "Metropolis"
+translation = "大都會"
 
 [[terms]]
 term = "MEV Searcher"
@@ -1104,11 +594,6 @@ tags = []
 translation = "網路"
 
 [[terms]]
-term = "NFT"
-tags = []
-translation = "NFT"
-
-[[terms]]
 term = "Node"
 tags = []
 translation = "節點"
@@ -1122,11 +607,6 @@ translation = "非同質性代幣 (NFT)"
 term = "Nonce"
 tags = []
 translation = "Nonce"
-
-[[terms]]
-term = "npm install"
-tags = []
-translation = "npm install"
 
 [[terms]]
 term = "Nullifier"
@@ -1149,54 +629,19 @@ tags = []
 translation = "Ommer"
 
 [[terms]]
-term = "Onboarding portal"
-tags = []
-translation = "新手教學"
-
-[[terms]]
-term = "One Click Dapp"
-tags = []
-translation = "One Click Dapp"
-
-[[terms]]
-term = "Online"
-tags = []
-translation = "上線"
-
-[[terms]]
 term = "Opcodes"
 tags = []
-translation = "Opcodes"
+translation = "操作碼"
 
 [[terms]]
 term = "Optimistic rollup"
 tags = []
-translation = "Optimistic rollup"
+translation = "樂觀卷疊"
 
 [[terms]]
-term = "Oracles"
+term = "Oracle"
 tags = []
-translation = "數據庫"
-
-[[terms]]
-term = "OrbitDB"
-tags = []
-translation = "OrbitDB"
-
-[[terms]]
-term = "Overflow"
-tags = []
-translation = "溢出"
-
-[[terms]]
-term = "Parity"
-tags = []
-translation = "Parity"
-
-[[terms]]
-term = "Payment Provider"
-tags = []
-translation = "支付提供者"
+translation = "預言機"
 
 [[terms]]
 term = "Plasma"
@@ -1204,44 +649,19 @@ tags = []
 translation = "Plasma"
 
 [[terms]]
-term = "Platform"
-tags = []
-translation = "平台"
-
-[[terms]]
-term = "POA"
-tags = []
-translation = "POA"
-
-[[terms]]
-term = "PoS"
-tags = []
-translation = "PoS"
-
-[[terms]]
-term = "PoW"
-tags = []
-translation = "PoW"
-
-[[terms]]
 term = "Prediction market"
 tags = []
-translation = "預期市場"
+translation = "預測市場"
 
 [[terms]]
 term = "Private key"
 tags = []
-translation = "私密金鑰"
+translation = "私鑰"
 
 [[terms]]
 term = "Proof of Authority"
 tags = []
 translation = "權威證明"
-
-[[terms]]
-term = "Proof of stake"
-tags = []
-translation = "權益證明"
 
 [[terms]]
 term = "Proof of Stake, PoS"
@@ -1252,11 +672,6 @@ translation = "權益證明"
 term = "Proof of work"
 tags = []
 translation = "工作量證明 (PoW)"
-
-[[terms]]
-term = "Proof-of-stake"
-tags = []
-translation = "權益證明"
 
 [[terms]]
 term = "Proposer"
@@ -1274,21 +689,6 @@ tags = []
 translation = "公鑰"
 
 [[terms]]
-term = "Pull request"
-tags = []
-translation = "提取請求"
-
-[[terms]]
-term = "Pull Requests"
-tags = []
-translation = "提取請求"
-
-[[terms]]
-term = "qDai"
-tags = []
-translation = "qDai"
-
-[[terms]]
 term = "RanDAO"
 tags = []
 translation = "RanDAO"
@@ -1296,17 +696,12 @@ translation = "RanDAO"
 [[terms]]
 term = "Re-entrancy"
 tags = []
-translation = "可重入"
+translation = "重入"
 
 [[terms]]
 term = "Receipt"
 tags = []
 translation = "收據"
-
-[[terms]]
-term = "Recursion"
-tags = []
-translation = "遞迴"
 
 [[terms]]
 term = "Recursive Length Prefix (RLP)"
@@ -1319,54 +714,14 @@ tags = []
 translation = "冗餘"
 
 [[terms]]
-term = "Resource"
-tags = []
-translation = "資源"
-
-[[terms]]
-term = "Reward"
-tags = []
-translation = "酬勞"
-
-[[terms]]
-term = "RFQ"
-tags = []
-translation = "RFQ"
-
-[[terms]]
-term = "RLP"
-tags = []
-translation = "RLP"
-
-[[terms]]
-term = "Roadmap"
-tags = []
-translation = "開發藍圖"
-
-[[terms]]
 term = "Rollup"
 tags = []
 translation = "Rollup"
 
 [[terms]]
-term = "Rollup-centric"
-tags = []
-translation = "卷軸中心"
-
-[[terms]]
-term = "Rollups"
-tags = []
-translation = "匯總值"
-
-[[terms]]
 term = "RPC"
 tags = []
 translation = "RPC"
-
-[[terms]]
-term = "Runtime"
-tags = []
-translation = "運行時間"
 
 [[terms]]
 term = "Sandwich Attack"
@@ -1376,17 +731,7 @@ translation = "三明治夾擊"
 [[terms]]
 term = "Scaling"
 tags = []
-translation = "擴張"
-
-[[terms]]
-term = "Scarce"
-tags = []
-translation = "稀有"
-
-[[terms]]
-term = "Secure"
-tags = []
-translation = "安全"
+translation = "擴展"
 
 [[terms]]
 term = "Secure Hash Algorithm (SHA)"
@@ -1396,7 +741,7 @@ translation = "安全雜湊演算法 (SHA)"
 [[terms]]
 term = "Security token"
 tags = []
-translation = "代幣安全性"
+translation = "證券性質代幣"
 
 [[terms]]
 term = "Seed phrase"
@@ -1414,11 +759,6 @@ tags = []
 translation = "Serenity"
 
 [[terms]]
-term = "Settlement"
-tags = []
-translation = "決議"
-
-[[terms]]
 term = "Shard chain"
 tags = []
 translation = "分片鏈"
@@ -1431,7 +771,7 @@ translation = "分片"
 [[terms]]
 term = "Short position"
 tags = []
-translation = "短融資"
+translation = "空部位"
 
 [[terms]]
 term = "Sidechain"
@@ -1439,56 +779,9 @@ tags = []
 translation = "側鏈"
 
 [[terms]]
-term = "Sidechains"
-tags = []
-translation = "側鏈"
-
-[[terms]]
-term = "Similar"
-tags = []
-translation = "相似"
-
-[[terms]]
-term = "Singleton"
-tags = []
-translation = "單例"
-
-[[terms]]
 term = "Slash, Slashing"
 tags = ["protocol"]
 translation = "懲罰、罰款"
-
-[[terms]]
-term = "Slashings"
-tags = []
-translation = """
-删除驗證器
-驗證程式是惡意的，將被砍掉並踢出系統。
-懲罰是負的獎勵（例如離線）。
-砍是一個巨大的懲罰（約1/32的平衡賭注）和強制退出。
-大多數系統都需要驗證器在網絡中存放指定數量的資產。在網絡中持有硬幣作為懲罰機制的執行者，並獲得更大的激勵。當驗證器試圖操縱系統或驗證無效交易時，懲罰機制會對其下注的硬幣進行大幅削减。損失資產的風險足以激勵驗證者誠實地驗證交易。"""
-
-[[terms]]
-term = "Slippage"
-tags = []
-translation = """
-什麼是 ？
-
-滑點是指交易的預期價格與執行該交易的價格之間的差。 滑點可隨時發生，但在使用市場定單時波動較大時最為普遍。 當執行大訂單但以所選價格沒有足夠的交易量來維持當前的買/賣價差時，也會發生這種情況。
-
-https://www. investopedia. com/terms/s/slippage. asp
-文件：詞彙表"""
-
-[[terms]]
-term = "Slippage"
-tags = []
-translation = """
-什麼是 ？
-
-滑點是指交易的預期價格與執行該交易的價格之間的差。 滑點可隨時發生，但在使用市場定單時波動較大時最為普遍。 當執行大訂單但以所選價格沒有足夠的交易量來維持當前的買/賣價差時，也會發生這種情況。
-
-https://www. investopedia. com/terms/s/slippage. asp
-文件：詞彙表"""
 
 [[terms]]
 term = "Slot"
@@ -1498,7 +791,7 @@ translation = "時隙"
 [[terms]]
 term = "Smart contract"
 tags = []
-translation = "智能合約"
+translation = "智慧合約"
 
 [[terms]]
 term = "SNARK"
@@ -1513,22 +806,17 @@ translation = "Solidity"
 [[terms]]
 term = "Solidity inline assembly"
 tags = []
-translation = "Solidity 內嵌組譯碼"
+translation = "Solidity 內嵌組合語言"
 
 [[terms]]
 term = "Specification"
 tags = []
-translation = "規範"
+translation = "規格"
 
 [[terms]]
 term = "Spurious Dragon"
 tags = []
 translation = "Spurious Dragon"
-
-[[terms]]
-term = "SPV"
-tags = []
-translation = "SPV"
 
 [[terms]]
 term = "Stablecoin"
@@ -1551,15 +839,6 @@ tags = []
 translation = "質押"
 
 [[terms]]
-term = "Staking community grants"
-tags = []
-translation = """
-Eth2立樁社區補助金
-乙太坊基金會正在贊助一波Eth2立樁社區贈款
-乙太坊基金會正在資助創建工具、檔案和資源，以獲得令人愉快的立樁和驗證體驗，雖然興致勃勃的斯塔克生態系統在公益社區資源方面已經取得了長足的進步，但我們還處於起步階段，還有更多的工作要做！
-https://ethereum.org/en/eth2/get-involved/staking-community-grants/"""
-
-[[terms]]
 term = "Staking pool"
 tags = []
 translation = "質押池"
@@ -1570,11 +849,6 @@ tags = []
 translation = "STARK"
 
 [[terms]]
-term = "STARTGAS"
-tags = []
-translation = "STARTGAS"
-
-[[terms]]
 term = "State channels"
 tags = []
 translation = "狀態通道"
@@ -1582,7 +856,7 @@ translation = "狀態通道"
 [[terms]]
 term = "State machine"
 tags = []
-translation = "狀態機器"
+translation = "狀態機"
 
 [[terms]]
 term = "State pruning"
@@ -1597,14 +871,9 @@ tags = []
 translation = "存儲"
 
 [[terms]]
-term = "Streaming"
-tags = []
-translation = "播放中"
-
-[[terms]]
 term = "Strong typing"
 tags = []
-translation = "強輸入"
+translation = "強型別"
 
 [[terms]]
 term = "Swap"
@@ -1617,39 +886,14 @@ tags = []
 translation = "Swarm"
 
 [[terms]]
-term = "SWC"
-tags = []
-translation = "SWC"
-
-[[terms]]
-term = "SWC Registry"
-tags = []
-translation = "SWC 登錄"
-
-[[terms]]
 term = "Sybil attack"
 tags = []
-translation = "女巫攻擊"
-
-[[terms]]
-term = "Szabo"
-tags = []
-translation = "Szabo"
+translation = "分身攻擊"
 
 [[terms]]
 term = "Tangerine Whistle"
 tags = []
 translation = "Tangerine Whistle"
-
-[[terms]]
-term = "TCG"
-tags = []
-translation = "集換式卡牌遊戲 (TCG)"
-
-[[terms]]
-term = "Test case"
-tags = []
-translation = "測試用例"
 
 [[terms]]
 term = "Testnet"
@@ -1667,44 +911,14 @@ tags = []
 translation = "吞吐量"
 
 [[terms]]
-term = "Ticker"
-tags = []
-translation = "行情指示器"
-
-[[terms]]
 term = "Timestamp"
 tags = []
-translation = "時間戳"
+translation = "時間戳記"
 
 [[terms]]
 term = "Token"
 tags = []
 translation = "代幣"
-
-[[terms]]
-term = "Token standard"
-tags = []
-translation = "權杖標準"
-
-[[terms]]
-term = "Tokens"
-tags = []
-translation = "代幣"
-
-[[terms]]
-term = "Tooling"
-tags = []
-translation = "模組化"
-
-[[terms]]
-term = "Tools"
-tags = []
-translation = "工具"
-
-[[terms]]
-term = "Trade"
-tags = []
-translation = "交易"
 
 [[terms]]
 term = "Transaction"
@@ -1714,7 +928,7 @@ translation = "交易"
 [[terms]]
 term = "Transaction fee"
 tags = []
-translation = "礦工費"
+translation = "交易手續費"
 
 [[terms]]
 term = "Transfers"
@@ -1725,46 +939,6 @@ translation = "傳送"
 term = "Turing complete"
 tags = []
 translation = "圖靈完備"
-
-[[terms]]
-term = "Turing-Completeness"
-tags = []
-translation = "圖零完整性"
-
-[[terms]]
-term = "Tutorial"
-tags = []
-translation = "使用教學"
-
-[[terms]]
-term = "Update"
-tags = []
-translation = "升級"
-
-[[terms]]
-term = "Upgrade"
-tags = []
-translation = "升級"
-
-[[terms]]
-term = "Upvote"
-tags = []
-translation = "讚"
-
-[[terms]]
-term = "USDC"
-tags = []
-translation = "USDC"
-
-[[terms]]
-term = "User"
-tags = []
-translation = "使用者"
-
-[[terms]]
-term = "Utility functions"
-tags = []
-translation = "實用功能快鍵"
 
 [[terms]]
 term = "UTXO"
@@ -1782,11 +956,6 @@ tags = ["protocol"]
 translation = "驗證者"
 
 [[terms]]
-term = "Validator"
-tags = []
-translation = "驗證程式"
-
-[[terms]]
 term = "Validity proof"
 tags = []
 translation = "有效性證明"
@@ -1795,11 +964,6 @@ translation = "有效性證明"
 term = "Validium"
 tags = []
 translation = "Validium"
-
-[[terms]]
-term = "Value-blindness"
-tags = []
-translation = "價值盲"
 
 [[terms]]
 term = "Vyper"
@@ -1819,14 +983,7 @@ translation = "Warp sync–每5000個塊，節點將對該塊的狀態進行一�
 [[terms]]
 term = "Web3"
 tags = []
-translation = """
-No translations matched your search
-Web3"""
-
-[[terms]]
-term = "Webhooks"
-tags = []
-translation = "Webhook"
+translation = "Web3"
 
 [[terms]]
 term = "wei"

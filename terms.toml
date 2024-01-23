@@ -1,7 +1,112 @@
 [[terms]]
+term = "3Box"
+tags = []
+translation = "3Box"
+
+[[terms]]
+term = "51% attack"
+tags = []
+translation = "51% 攻擊"
+
+[[terms]]
+term = "ABI"
+tags = []
+translation = "ABI"
+
+[[terms]]
+term = "Account"
+tags = []
+translation = "帳戶"
+
+[[terms]]
+term = "Address"
+tags = []
+translation = "地址"
+
+[[terms]]
+term = "ASICs"
+tags = []
+translation = "ASIC"
+
+[[terms]]
+term = "Attacker"
+tags = []
+translation = "攻擊者"
+
+[[terms]]
+term = "Attestation"
+tags = []
+translation = "見證"
+
+[[terms]]
 term = "Back-run, Backrun, Backrunning"
 tags = ["mev"]
 translation = "尾隨交易"
+
+[[terms]]
+term = "Backend"
+tags = []
+translation = "後端"
+
+[[terms]]
+term = "Balance"
+tags = []
+translation = "餘額"
+
+[[terms]]
+term = "Base fee"
+tags = []
+translation = "基本費用"
+
+[[terms]]
+term = "Beacon Chain"
+tags = []
+translation = "信標鏈"
+
+[[terms]]
+term = "Beam"
+tags = []
+translation = "光束同步"
+
+[[terms]]
+term = "Big-endian"
+tags = []
+translation = "大端序"
+
+[[terms]]
+term = "BIPs"
+tags = []
+translation = "比特幣改進提案"
+
+[[terms]]
+term = "Bitcoin"
+tags = []
+translation = "比特幣"
+
+[[terms]]
+term = "Block"
+tags = []
+translation = "區塊"
+
+[[terms]]
+term = "Block explorers"
+tags = []
+translation = "區塊瀏覽器"
+
+[[terms]]
+term = "Blockchain"
+tags = []
+translation = "區塊鏈"
+
+[[terms]]
+term = "Bootstrap Nodes"
+tags = []
+translation = "啟動節點"
+
+[[terms]]
+term = "Bounty"
+tags = []
+translation = "懸賞"
 
 [[terms]]
 term = "Builder"
@@ -14,9 +119,284 @@ tags = ["mev"]
 translation = "交易同捆包"
 
 [[terms]]
+term = "Byte"
+tags = []
+translation = "位元組"
+
+[[terms]]
+term = "Bytecode"
+tags = []
+translation = "位元組碼"
+
+[[terms]]
+term = "Byzantium fork"
+tags = []
+translation = "拜占庭升級"
+
+[[terms]]
+term = "Centralized exchanges"
+tags = []
+translation = "中央化交易所"
+
+[[terms]]
+term = "Chaumian Blinding"
+tags = []
+translation = "喬姆盲簽"
+
+[[terms]]
+term = "Clients"
+tags = []
+translation = "客戶端"
+
+[[terms]]
+term = "Collateral"
+tags = []
+translation = "抵押品"
+
+[[terms]]
+term = "Collectible"
+tags = []
+translation = "收藏集"
+
+[[terms]]
+term = "Committee"
+tags = []
+translation = "委員會"
+
+[[terms]]
+term = "Compiling"
+tags = []
+translation = "編譯"
+
+[[terms]]
+term = "Composability"
+tags = []
+translation = "可組合性"
+
+[[terms]]
+term = "Composability"
+tags = []
+translation = "可組合性"
+
+[[terms]]
+term = "Composable"
+tags = []
+translation = "可組合"
+
+[[terms]]
+term = "Consensus"
+tags = []
+translation = "共識"
+
+[[terms]]
+term = "Consensus mechanism"
+tags = []
+translation = "共識機制"
+
+[[terms]]
+term = "Consensus rules"
+tags = []
+translation = "共識規則"
+
+[[terms]]
+term = "Consistency"
+tags = []
+translation = "一致性"
+
+[[terms]]
+term = "Constantinople fork"
+tags = []
+translation = "君士坦丁堡升級"
+
+[[terms]]
+term = "Contract account"
+tags = []
+translation = "合約帳戶"
+
+[[terms]]
+term = "Contract creation transaction"
+tags = []
+translation = "合約創建交易"
+
+[[terms]]
+term = "Crosslink"
+tags = []
+translation = "交聯"
+
+[[terms]]
+term = "Cryptocurrency"
+tags = []
+translation = "密碼學貨幣"
+
+[[terms]]
+term = "Cryptoeconomics"
+tags = []
+translation = "密碼經濟學"
+
+[[terms]]
+term = "CWE"
+tags = []
+translation = "通用缺陷列表"
+
+[[terms]]
+term = "Dai"
+tags = []
+translation = "Dai"
+
+[[terms]]
+term = "Decentralized application"
+tags = []
+translation = "去中心化應用程式"
+
+[[terms]]
+term = "Decentralized autonomous organization (DAO)"
+tags = []
+translation = "去中央化自治組織(DAO)"
+
+[[terms]]
+term = "Decentralized exchange (DEX)"
+tags = []
+translation = "去中央化交易所"
+
+[[terms]]
+term = "Decentralized finance"
+tags = []
+translation = "去中央化金融"
+
+[[terms]]
+term = "Deploy"
+tags = []
+translation = "部署"
+
+[[terms]]
+term = "Devcon"
+tags = []
+translation = "Devcon"
+
+[[terms]]
+term = "Difficulty"
+tags = []
+translation = "挖礦難度"
+
+[[terms]]
+term = "Difficulty bomb"
+tags = []
+translation = "難度炸彈"
+
+[[terms]]
+term = "Digital signature"
+tags = []
+translation = "數位簽章"
+
+[[terms]]
+term = "Elliptic curve digital signature algorithm"
+tags = []
+translation = "橢圓曲線簽章演算法"
+
+[[terms]]
+term = "Epoch"
+tags = []
+translation = "時期"
+
+[[terms]]
+term = "Escrow"
+tags = []
+translation = "代管"
+
+[[terms]]
+term = "Ethash"
+tags = []
+translation = "Ethash"
+
+[[terms]]
+term = "Ethereum"
+tags = []
+translation = "以太坊"
+
+[[terms]]
+term = "Ethereum Foundation"
+tags = []
+translation = "以太坊基金會"
+
+[[terms]]
+term = "Ethereum Improvement Proposal (EIP)"
+tags = []
+translation = "以太坊改進提案"
+
+[[terms]]
+term = "Ethereum Improvement Proposals"
+tags = []
+translation = "Ethereum 改進提案"
+
+[[terms]]
+term = "Ethereum Name Service (ENS)"
+tags = []
+translation = "以太坊域名服務"
+
+[[terms]]
+term = "Ethereum Request for Comments (ERC)"
+tags = []
+translation = "以太坊開發者公開徵求意見 (ERC)"
+
+[[terms]]
+term = "Ethereum Virtual Machine"
+tags = []
+translation = "以太坊虛擬機"
+
+[[terms]]
+term = "Events"
+tags = []
+translation = "事件"
+
+[[terms]]
+term = "EVM assembly language"
+tags = []
+translation = "EVM 組合語言"
+
+[[terms]]
+term = "Externally owned account (EOA)"
+tags = []
+translation = "外部帳戶 (EOA)"
+
+[[terms]]
+term = "Fallback function"
+tags = []
+translation = "預設函式"
+
+[[terms]]
+term = "Fiat currency"
+tags = []
+translation = "法定貨幣"
+
+[[terms]]
+term = "Finality"
+tags = []
+translation = "最終性"
+
+[[terms]]
+term = "Fork"
+tags = []
+translation = "分叉"
+
+[[terms]]
+term = "Fraud proof"
+tags = []
+translation = "詐欺證明"
+
+[[terms]]
 term = "Front-run, Frontrun, Frontrunning"
 tags = ["mev"]
 translation = "搶跑交易、搶先交易"
+
+[[terms]]
+term = "Front-running"
+tags = []
+translation = "預先交易"
+
+[[terms]]
+term = "Frontier"
+tags = []
+translation = "前沿"
 
 [[terms]]
 term = "Full Node"
@@ -24,9 +404,149 @@ tags = ["protocol"]
 translation = "全節點"
 
 [[terms]]
+term = "Gas"
+tags = []
+translation = "Gas"
+
+[[terms]]
+term = "Gas limit"
+tags = []
+translation = "燃料限制"
+
+[[terms]]
+term = "Genesis"
+tags = []
+translation = "創世區塊"
+
+[[terms]]
+term = "Geth"
+tags = []
+translation = "Geth"
+
+[[terms]]
+term = "GHOST"
+tags = []
+translation = "GHOST"
+
+[[terms]]
+term = "Governance"
+tags = []
+translation = "治理"
+
+[[terms]]
+term = "Gwei"
+tags = []
+translation = "Gwei"
+
+[[terms]]
+term = "Hard fork"
+tags = []
+translation = "硬分叉"
+
+[[terms]]
+term = "Hash"
+tags = []
+translation = "雜湊值"
+
+[[terms]]
+term = "HD wallet"
+tags = []
+translation = "HD 錢包"
+
+[[terms]]
+term = "Hexadecimal literals"
+tags = []
+translation = "十六進位值"
+
+[[terms]]
+term = "Homestead"
+tags = []
+translation = "家園"
+
+[[terms]]
+term = "Ice Age"
+tags = []
+translation = "冰河期"
+
+[[terms]]
 term = "Impermanent Loss"
 tags = ["defi"]
 translation = "無常損失"
+
+[[terms]]
+term = "Internal transaction"
+tags = []
+translation = "內部交易"
+
+[[terms]]
+term = "Keccak-256"
+tags = []
+translation = "Keccak-256"
+
+[[terms]]
+term = "Key derivation function (KDF)"
+tags = []
+translation = "金鑰派生函數 (KDF)"
+
+[[terms]]
+term = "Keystore file"
+tags = []
+translation = "密鑰存儲檔案"
+
+[[terms]]
+term = "Kilobytes"
+tags = []
+translation = "千位元組"
+
+[[terms]]
+term = "Last-in-first-out"
+tags = []
+translation = "後進先出法"
+
+[[terms]]
+term = "Launchpad"
+tags = []
+translation = "啟動面板"
+
+[[terms]]
+term = "Layer"
+tags = []
+translation = "分層"
+
+[[terms]]
+term = "Layer 2"
+tags = []
+translation = "第二層"
+
+[[terms]]
+term = "Ledger"
+tags = []
+translation = "帳本"
+
+[[terms]]
+term = "Lending pool"
+tags = ["defi"]
+translation = "借貸池"
+
+[[terms]]
+term = "Liveness"
+tags = []
+translation = "活躍性"
+
+[[terms]]
+term = "Mainnet"
+tags = []
+translation = "主網"
+
+[[terms]]
+term = "Malicious"
+tags = []
+translation = "惡意"
+
+[[terms]]
+term = "Merkle Patricia tree"
+tags = []
+translation = "字首雜湊樹"
 
 [[terms]]
 term = "Merkle Tree"
@@ -34,9 +554,59 @@ tags = []
 translation = "雜湊樹"
 
 [[terms]]
+term = "Message"
+tags = []
+translation = "訊息"
+
+[[terms]]
+term = "Message call"
+tags = []
+translation = "訊息呼叫"
+
+[[terms]]
+term = "Metropolis"
+tags = []
+translation = "大都會"
+
+[[terms]]
 term = "MEV Searcher"
 tags = ["mev"]
 translation = "尋利者"
+
+[[terms]]
+term = "Miner"
+tags = []
+translation = "礦工"
+
+[[terms]]
+term = "Mining"
+tags = []
+translation = "挖礦"
+
+[[terms]]
+term = "Modular"
+tags = []
+translation = "模組化"
+
+[[terms]]
+term = "Network"
+tags = []
+translation = "網路"
+
+[[terms]]
+term = "Node"
+tags = []
+translation = "節點"
+
+[[terms]]
+term = "Non-fungible token (NFT)"
+tags = []
+translation = "非同質性代幣 (NFT)"
+
+[[terms]]
+term = "Nonce"
+tags = []
+translation = "Nonce"
 
 [[terms]]
 term = "Nullifier"
@@ -44,9 +614,64 @@ tags = ["zk"]
 translation = "註銷碼"
 
 [[terms]]
+term = "Off-chain"
+tags = []
+translation = "鏈外"
+
+[[terms]]
+term = "Offer"
+tags = []
+translation = "報價"
+
+[[terms]]
+term = "Ommer"
+tags = []
+translation = "Ommer"
+
+[[terms]]
+term = "Opcodes"
+tags = []
+translation = "操作碼"
+
+[[terms]]
+term = "Optimistic rollup"
+tags = []
+translation = "樂觀卷疊"
+
+[[terms]]
+term = "Oracle"
+tags = []
+translation = "預言機"
+
+[[terms]]
+term = "Plasma"
+tags = []
+translation = "Plasma"
+
+[[terms]]
+term = "Prediction market"
+tags = []
+translation = "預測市場"
+
+[[terms]]
+term = "Private key"
+tags = []
+translation = "私鑰"
+
+[[terms]]
+term = "Proof of Authority"
+tags = []
+translation = "權威證明"
+
+[[terms]]
 term = "Proof of Stake, PoS"
 tags = ["protocol"]
 translation = "權益證明"
+
+[[terms]]
+term = "Proof of work"
+tags = []
+translation = "工作量證明 (PoW)"
 
 [[terms]]
 term = "Proposer"
@@ -54,9 +679,104 @@ tags = ["protocol"]
 translation = "區塊發佈者"
 
 [[terms]]
+term = "Prysm"
+tags = []
+translation = "Prysm"
+
+[[terms]]
+term = "Public key"
+tags = []
+translation = "公鑰"
+
+[[terms]]
+term = "RanDAO"
+tags = []
+translation = "RanDAO"
+
+[[terms]]
+term = "Re-entrancy"
+tags = []
+translation = "重入"
+
+[[terms]]
+term = "Receipt"
+tags = []
+translation = "收據"
+
+[[terms]]
+term = "Recursive Length Prefix (RLP)"
+tags = []
+translation = "遞迴長度前綴 (RLP)"
+
+[[terms]]
+term = "Redundancy"
+tags = []
+translation = "冗餘"
+
+[[terms]]
+term = "Rollup"
+tags = []
+translation = "Rollup"
+
+[[terms]]
+term = "RPC"
+tags = []
+translation = "RPC"
+
+[[terms]]
 term = "Sandwich Attack"
 tags = ["mev"]
 translation = "三明治夾擊"
+
+[[terms]]
+term = "Scaling"
+tags = []
+translation = "擴展"
+
+[[terms]]
+term = "Secure Hash Algorithm (SHA)"
+tags = []
+translation = "安全雜湊演算法 (SHA)"
+
+[[terms]]
+term = "Security token"
+tags = []
+translation = "證券性質代幣"
+
+[[terms]]
+term = "Seed phrase"
+tags = []
+translation = "種子助記詞"
+
+[[terms]]
+term = "Sender"
+tags = []
+translation = "發送者"
+
+[[terms]]
+term = "Serenity"
+tags = []
+translation = "Serenity"
+
+[[terms]]
+term = "Shard chain"
+tags = []
+translation = "分片鏈"
+
+[[terms]]
+term = "Sharding"
+tags = []
+translation = "分片"
+
+[[terms]]
+term = "Short position"
+tags = []
+translation = "空部位"
+
+[[terms]]
+term = "Sidechain"
+tags = []
+translation = "側鏈"
 
 [[terms]]
 term = "Slash, Slashing"
@@ -64,6 +784,242 @@ tags = ["protocol"]
 translation = "懲罰、罰款"
 
 [[terms]]
+term = "Slot"
+tags = []
+translation = "時隙"
+
+[[terms]]
+term = "Smart contract"
+tags = []
+translation = "智慧合約"
+
+[[terms]]
+term = "SNARK"
+tags = []
+translation = "SNARK"
+
+[[terms]]
+term = "Solidity"
+tags = []
+translation = "Solidity"
+
+[[terms]]
+term = "Solidity inline assembly"
+tags = []
+translation = "Solidity 內嵌組合語言"
+
+[[terms]]
+term = "Specification"
+tags = []
+translation = "規格"
+
+[[terms]]
+term = "Spurious Dragon"
+tags = []
+translation = "Spurious Dragon"
+
+[[terms]]
+term = "Stablecoin"
+tags = []
+translation = "穩定幣"
+
+[[terms]]
+term = "Stake"
+tags = []
+translation = "質押"
+
+[[terms]]
+term = "Staker"
+tags = []
+translation = "質押者"
+
+[[terms]]
+term = "Staking"
+tags = []
+translation = "質押"
+
+[[terms]]
+term = "Staking pool"
+tags = []
+translation = "質押池"
+
+[[terms]]
+term = "STARK"
+tags = []
+translation = "STARK"
+
+[[terms]]
+term = "State channels"
+tags = []
+translation = "狀態通道"
+
+[[terms]]
+term = "State machine"
+tags = []
+translation = "狀態機"
+
+[[terms]]
+term = "State pruning"
+tags = []
+translation = """
+在程式設計語言和基於樹的版本控制系統（如git）中，它的概念類似於垃圾收集。當乙太坊契約運行時，它們會修改它們的狀態。由於狀態樹是一個不可變的只追加結構，這意味著每次修改狀態時，它都會得到一個新的狀態根。一些可以從舊根訪問的元素可能無法從新根訪問（由於删除或修改條目的操作）。理論上，它們可以被修剪（垃圾收集）。然而，由於工作證明共識並不能確定狀態轉換何時是最終的，囙此理論上總是存在這樣一種可能性，即狀態將恢復到更老的根，並且將再次需要修剪的東西。囙此，修剪現時是一種權衡。我們說，例如，在5000塊之後，我們假設狀態不會被恢復，並删减所有不可到達的節點。可能仍有人希望禁用此功能以保留區塊鏈的整個歷史記錄，以用於特殊目的。
+https://blog.ethereum.org/2015/06/26/state-tree-pruning/"""
+
+[[terms]]
+term = "Storage"
+tags = []
+translation = "存儲"
+
+[[terms]]
+term = "Strong typing"
+tags = []
+translation = "強型別"
+
+[[terms]]
+term = "Swap"
+tags = []
+translation = "交換"
+
+[[terms]]
+term = "Swarm"
+tags = []
+translation = "Swarm"
+
+[[terms]]
+term = "Sybil attack"
+tags = []
+translation = "分身攻擊"
+
+[[terms]]
+term = "Tangerine Whistle"
+tags = []
+translation = "Tangerine Whistle"
+
+[[terms]]
+term = "Testnet"
+tags = []
+translation = "測試網"
+
+[[terms]]
+term = "The Merge"
+tags = []
+translation = "合併"
+
+[[terms]]
+term = "Throughput"
+tags = []
+translation = "吞吐量"
+
+[[terms]]
+term = "Timestamp"
+tags = []
+translation = "時間戳記"
+
+[[terms]]
+term = "Token"
+tags = []
+translation = "代幣"
+
+[[terms]]
+term = "Transaction"
+tags = []
+translation = "交易"
+
+[[terms]]
+term = "Transaction fee"
+tags = []
+translation = "交易手續費"
+
+[[terms]]
+term = "Transfers"
+tags = []
+translation = "傳送"
+
+[[terms]]
+term = "Turing complete"
+tags = []
+translation = "圖靈完備"
+
+[[terms]]
+term = "UTXO"
+tags = []
+translation = "UTXO"
+
+[[terms]]
+term = "Validate"
+tags = []
+translation = "驗證"
+
+[[terms]]
 term = "Validator"
 tags = ["protocol"]
 translation = "驗證者"
+
+[[terms]]
+term = "Validity proof"
+tags = []
+translation = "有效性證明"
+
+[[terms]]
+term = "Validium"
+tags = []
+translation = "Validium"
+
+[[terms]]
+term = "Vyper"
+tags = []
+translation = "Vyper"
+
+[[terms]]
+term = "Wallet"
+tags = []
+translation = "錢包"
+
+[[terms]]
+term = "Warp"
+tags = []
+translation = "Warp sync–每5000個塊，節點將對該塊的狀態進行一致關鍵快照。"
+
+[[terms]]
+term = "Web3"
+tags = []
+translation = "Web3"
+
+[[terms]]
+term = "wei"
+tags = []
+translation = "wei"
+
+[[terms]]
+term = "Whitepaper"
+tags = []
+translation = "白皮書"
+
+[[terms]]
+term = "Withdraw"
+tags = []
+translation = "提款"
+
+[[terms]]
+term = "Zero address"
+tags = []
+translation = "零地址"
+
+[[terms]]
+term = "Zero-knowledge rollup"
+tags = []
+translation = """
+使用有效性證明來提供增加的第2層事務吞吐量，同時使用主網（第1層）提供的安全性的事務匯總。 
+儘管它們不能處理諸如Optimistic匯總之類的複雜事務類型，但它們沒有延遲問題
+因為事務在提交時被證明是有效的。
+文件: Glossary"""
+
+[[terms]]
+term = "Zero-knowledge rollups"
+tags = []
+translation = "ZK零知識證明卷軸"
+
+[[terms]]
+term = "Zooko's triangle"
+tags = []
+translation = "Zooko 三角"

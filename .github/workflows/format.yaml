@@ -31,4 +31,4 @@ jobs:
     - name: Check term sorting
       run: |
         cargo build
-        cargo run -- --check
+        cargo run --bin terms -- --check

@@ -184,11 +184,6 @@ tags = []
 translation = "可組合性"
 
 [[terms]]
-term = "Composability"
-tags = []
-translation = "可組合性"
-
-[[terms]]
 term = "Composable"
 tags = []
 translation = "可組合"

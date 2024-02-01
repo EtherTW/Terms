@@ -23,6 +23,10 @@ fn generate_terms_table(terms: &Terms) -> String {
                 tag, tag
             ));
         }
+        table.push_str(&format!(
+            "<td>{}</td>",
+            term.context.clone().unwrap_or_default()
+        ));
         table.push_str("</td>");
         table.push_str("</tr>\n");
     }

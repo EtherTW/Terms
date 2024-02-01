@@ -9,11 +9,6 @@ tags = []
 translation = "51% 攻擊"
 
 [[terms]]
-term = "ABI"
-tags = []
-translation = "ABI"
-
-[[terms]]
 term = "Account"
 tags = []
 translation = "帳戶"
@@ -24,9 +19,16 @@ tags = []
 translation = "地址"
 
 [[terms]]
-term = "ASICs"
+term = "Application Binary Interface"
 tags = []
-translation = "ASIC"
+translation = "應用程式二元介面"
+acronym = "ABI"
+
+[[terms]]
+term = "Application Specific Integrated Circuit"
+tags = []
+translation = "特殊應用積體電路"
+acronym = "ASIC"
 
 [[terms]]
 term = "Attacker"
@@ -74,14 +76,15 @@ tags = []
 translation = "大端序"
 
 [[terms]]
-term = "BIPs"
-tags = []
-translation = "比特幣改進提案"
-
-[[terms]]
 term = "Bitcoin"
 tags = []
 translation = "比特幣"
+
+[[terms]]
+term = "Bitcoin Improvement Proposals"
+tags = []
+translation = "比特幣改進提案"
+acronym = "BIPs"
 
 [[terms]]
 term = "Block"
@@ -137,6 +140,7 @@ translation = "拜占庭升級"
 term = "Centralized exchanges"
 tags = []
 translation = "中央化交易所"
+acronym = "CEX"
 
 [[terms]]
 term = "Chaumian Blinding"
@@ -162,6 +166,12 @@ translation = "收藏集"
 term = "Committee"
 tags = []
 translation = "委員會"
+
+[[terms]]
+term = "Common Weakness Enumeration"
+tags = []
+translation = "通用缺陷列表"
+acronym = "CWE"
 
 [[terms]]
 term = "Compiling"
@@ -234,11 +244,6 @@ tags = []
 translation = "密碼經濟學"
 
 [[terms]]
-term = "CWE"
-tags = []
-translation = "通用缺陷列表"
-
-[[terms]]
 term = "Dai"
 tags = []
 translation = "Dai"
@@ -247,21 +252,25 @@ translation = "Dai"
 term = "Decentralized application"
 tags = []
 translation = "去中心化應用程式"
+acronym = "DApp"
 
 [[terms]]
-term = "Decentralized autonomous organization (DAO)"
+term = "Decentralized autonomous organization"
 tags = []
-translation = "去中央化自治組織(DAO)"
+translation = "去中央化自治組織"
+acronym = "DAO"
 
 [[terms]]
-term = "Decentralized exchange (DEX)"
+term = "Decentralized exchange"
 tags = []
 translation = "去中央化交易所"
+acronym = "DEX"
 
 [[terms]]
 term = "Decentralized finance"
 tags = []
 translation = "去中央化金融"
+acronym = "DeFi"
 
 [[terms]]
 term = "Deploy"
@@ -292,6 +301,7 @@ translation = "數位簽章"
 term = "Elliptic curve digital signature algorithm"
 tags = []
 translation = "橢圓曲線簽章演算法"
+acronym = "ECDSA"
 
 [[terms]]
 term = "Epoch"
@@ -317,31 +327,31 @@ translation = "以太坊"
 term = "Ethereum Foundation"
 tags = []
 translation = "以太坊基金會"
-
-[[terms]]
-term = "Ethereum Improvement Proposal (EIP)"
-tags = []
-translation = "以太坊改進提案"
+acronym = "EF"
 
 [[terms]]
 term = "Ethereum Improvement Proposals"
 tags = []
-translation = "Ethereum 改進提案"
+translation = "以太坊改進提案"
+acronym = "EIPs"
 
 [[terms]]
-term = "Ethereum Name Service (ENS)"
+term = "Ethereum Name Service"
 tags = []
 translation = "以太坊域名服務"
+acronym = "ENS"
 
 [[terms]]
-term = "Ethereum Request for Comments (ERC)"
+term = "Ethereum Request for Comments"
 tags = []
-translation = "以太坊開發者公開徵求意見 (ERC)"
+translation = "以太坊開發者公開徵求意見"
+acronym = "ERC"
 
 [[terms]]
 term = "Ethereum Virtual Machine"
 tags = []
 translation = "以太坊虛擬機"
+acronym = "EVM"
 
 [[terms]]
 term = "Events"
@@ -354,9 +364,10 @@ tags = []
 translation = "EVM 組合語言"
 
 [[terms]]
-term = "Externally owned account (EOA)"
+term = "Externally owned account"
 tags = []
-translation = "外部帳戶 (EOA)"
+translation = "外部帳戶"
+acronym = "EOA"
 
 [[terms]]
 term = "Fallback function"
@@ -424,14 +435,15 @@ tags = []
 translation = "Geth"
 
 [[terms]]
-term = "GHOST"
-tags = []
-translation = "GHOST"
-
-[[terms]]
 term = "Governance"
 tags = []
 translation = "治理"
+
+[[terms]]
+term = "Greedy Heaviest-Observed Sub-Tree"
+tags = []
+translation = "GHOST 演算法"
+acronym = "GHOST"
 
 [[terms]]
 term = "Gwei"
@@ -484,19 +496,15 @@ tags = []
 translation = "Keccak-256"
 
 [[terms]]
-term = "Key derivation function (KDF)"
+term = "Key derivation function"
 tags = []
-translation = "金鑰派生函數 (KDF)"
+translation = "金鑰衍生函數"
+acronym = "KDF"
 
 [[terms]]
 term = "Keystore file"
 tags = []
 translation = "密鑰存儲檔案"
-
-[[terms]]
-term = "Kilobytes"
-tags = []
-translation = "千位元組"
 
 [[terms]]
 term = "Last-in-first-out"
@@ -547,6 +555,7 @@ translation = "惡意"
 term = "Merkle Patricia tree"
 tags = []
 translation = "字首雜湊樹"
+acronym = "MPT"
 
 [[terms]]
 term = "Merkle Tree"
@@ -599,9 +608,10 @@ tags = []
 translation = "節點"
 
 [[terms]]
-term = "Non-fungible token (NFT)"
+term = "Non-fungible token"
 tags = []
-translation = "非同質性代幣 (NFT)"
+translation = "非同質性代幣"
+acronym = "NFT"
 
 [[terms]]
 term = "Nonce"
@@ -662,16 +672,19 @@ translation = "私鑰"
 term = "Proof of Authority"
 tags = []
 translation = "權威證明"
+acronym = "PoA"
 
 [[terms]]
-term = "Proof of Stake, PoS"
+term = "Proof of Stake"
 tags = ["protocol"]
 translation = "權益證明"
+acronym = "PoS"
 
 [[terms]]
 term = "Proof of work"
-tags = []
-translation = "工作量證明 (PoW)"
+tags = ["protocol"]
+translation = "工作量證明"
+acronym = "PoW"
 
 [[terms]]
 term = "Proposer"
@@ -704,9 +717,10 @@ tags = []
 translation = "收據"
 
 [[terms]]
-term = "Recursive Length Prefix (RLP)"
+term = "Recursive Length Prefix"
 tags = []
-translation = "遞迴長度前綴 (RLP)"
+translation = "遞迴長度前綴"
+acronym = "RLP"
 
 [[terms]]
 term = "Redundancy"
@@ -729,14 +743,21 @@ tags = ["mev"]
 translation = "三明治夾擊"
 
 [[terms]]
+term = "Scalable Transparent Argument of Knowledge"
+tags = []
+translation = "STARK"
+acronym = "STARK"
+
+[[terms]]
 term = "Scaling"
 tags = []
 translation = "擴展"
 
 [[terms]]
-term = "Secure Hash Algorithm (SHA)"
+term = "Secure Hash Algorithm"
 tags = []
-translation = "安全雜湊演算法 (SHA)"
+translation = "安全雜湊演算法"
+acronym = "SHA"
 
 [[terms]]
 term = "Security token"
@@ -794,11 +815,6 @@ tags = []
 translation = "智慧合約"
 
 [[terms]]
-term = "SNARK"
-tags = []
-translation = "SNARK"
-
-[[terms]]
 term = "Solidity"
 tags = []
 translation = "Solidity"
@@ -844,11 +860,6 @@ tags = []
 translation = "質押池"
 
 [[terms]]
-term = "STARK"
-tags = []
-translation = "STARK"
-
-[[terms]]
 term = "State channels"
 tags = []
 translation = "狀態通道"
@@ -874,6 +885,12 @@ translation = "存儲"
 term = "Strong typing"
 tags = []
 translation = "強型別"
+
+[[terms]]
+term = "Succinct non-interactive argument of knowledge"
+tags = []
+translation = "SNARK"
+acronym = "SNARK"
 
 [[terms]]
 term = "Swap"
@@ -941,9 +958,10 @@ tags = []
 translation = "圖靈完備"
 
 [[terms]]
-term = "UTXO"
+term = "Unspent transaction output"
 tags = []
-translation = "UTXO"
+translation = "尚未花費之交易輸出"
+acronym = "UTXO"
 
 [[terms]]
 term = "Validate"
@@ -1008,16 +1026,7 @@ translation = "零地址"
 [[terms]]
 term = "Zero-knowledge rollup"
 tags = []
-translation = """
-使用有效性證明來提供增加的第2層事務吞吐量，同時使用主網（第1層）提供的安全性的事務匯總。 
-儘管它們不能處理諸如Optimistic匯總之類的複雜事務類型，但它們沒有延遲問題
-因為事務在提交時被證明是有效的。
-文件: Glossary"""
-
-[[terms]]
-term = "Zero-knowledge rollups"
-tags = []
-translation = "ZK零知識證明卷軸"
+translation = "零知識證明卷疊"
 
 [[terms]]
 term = "Zooko's triangle"

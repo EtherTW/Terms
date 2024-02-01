@@ -9,6 +9,10 @@ fn generate_terms_table(terms: &Terms) -> String {
     for term in &terms.terms {
         table.push_str("<tr>");
         table.push_str(&format!("<td>{}</td>", term.term));
+        table.push_str(&format!(
+            "<td>{}</td>",
+            term.acronym.clone().unwrap_or_default()
+        ));
         table.push_str(&format!("<td>{}</td>", term.translation));
         // cell for tags
         table.push_str("<td>");

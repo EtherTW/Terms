@@ -738,9 +738,9 @@ tags = ["mev"]
 translation = "三明治夾擊"
 
 [[terms]]
-term = "Scalable Transparent Argument of Knowledge"
+term = "Scalable Transparent Arguments of Knowledge"
 tags = []
-translation = "STARK"
+translation = "可擴展透明知識證明"
 acronym = "STARK"
 
 [[terms]]
@@ -884,7 +884,7 @@ translation = "強型別"
 [[terms]]
 term = "Succinct non-interactive argument of knowledge"
 tags = []
-translation = "SNARK"
+translation = "簡潔無互動知識證明"
 acronym = "SNARK"
 
 [[terms]]
@@ -955,7 +955,7 @@ translation = "圖靈完備"
 [[terms]]
 term = "Unspent transaction output"
 tags = []
-translation = "尚未花費之交易輸出"
+translation = "未花費之交易輸出"
 acronym = "UTXO"
 
 [[terms]]

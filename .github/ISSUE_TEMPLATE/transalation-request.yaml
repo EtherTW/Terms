@@ -31,12 +31,3 @@ body:
       description: Do you have any proposed translation for this term?
     validations:
       required: false 
-
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you acknowledge that your contribution will be under the terms of the Taipei Ethereum Meetup open-source community.
-      options:
-        - label: I agree to follow this project's Code of Conduct and acknowledge the contribution terms.
-          required: true

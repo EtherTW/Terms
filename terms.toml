@@ -85,6 +85,7 @@ term = "Bitcoin Improvement Proposals"
 tags = []
 translation = "比特幣改進提案"
 acronym = "BIPs"
+context = "https://github.com/bitcoin/bips"
 
 [[terms]]
 term = "Block"
@@ -742,6 +743,7 @@ term = "Scalable Transparent Arguments of Knowledge"
 tags = []
 translation = "可擴展透明知識證明"
 acronym = "STARK"
+context = "來自論文 https://eprint.iacr.org/2018/046"
 
 [[terms]]
 term = "Scaling"
@@ -867,8 +869,9 @@ translation = "狀態機"
 [[terms]]
 term = "State pruning"
 tags = []
-translation = """
-在程式設計語言和基於樹的版本控制系統（如git）中，它的概念類似於垃圾收集。當乙太坊契約運行時，它們會修改它們的狀態。由於狀態樹是一個不可變的只追加結構，這意味著每次修改狀態時，它都會得到一個新的狀態根。一些可以從舊根訪問的元素可能無法從新根訪問（由於删除或修改條目的操作）。理論上，它們可以被修剪（垃圾收集）。然而，由於工作證明共識並不能確定狀態轉換何時是最終的，囙此理論上總是存在這樣一種可能性，即狀態將恢復到更老的根，並且將再次需要修剪的東西。囙此，修剪現時是一種權衡。我們說，例如，在5000塊之後，我們假設狀態不會被恢復，並删减所有不可到達的節點。可能仍有人希望禁用此功能以保留區塊鏈的整個歷史記錄，以用於特殊目的。
+translation = "狀態剪枝"
+context = """
+當以太坊狀態樹會隨著交易的發生而更動，更動時會產生新的狀態根以及讓樹上某些舊節點失效。狀態剪枝是刪除舊節點以節省硬碟使用的做法。
 https://blog.ethereum.org/2015/06/26/state-tree-pruning/"""
 
 [[terms]]
@@ -989,9 +992,10 @@ tags = []
 translation = "錢包"
 
 [[terms]]
-term = "Warp"
+term = "Warp sync"
 tags = []
-translation = "Warp sync–每5000個塊，節點將對該塊的狀態進行一致關鍵快照。"
+translation = "曲速同步"
+context = "https://openethereum.github.io/Warp-Sync-Snapshot-Format"
 
 [[terms]]
 term = "Web3"

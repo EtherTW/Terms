@@ -9,6 +9,7 @@ pub struct Term {
     pub tags: Vec<String>,
     pub translation: String,
     pub acronym: Option<String>,
+    pub context: Option<String>,
 }
 
 #[derive(Debug, Deserialize, Serialize, Clone, PartialEq)]

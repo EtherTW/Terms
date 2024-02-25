@@ -74,6 +74,7 @@ fn main() {
                             tags: vec![],
                             translation: zh_tw.tig.term.to_string(),
                             acronym: None,
+                            context: None,
                         };
                         terms.terms.push(term);
                     } else {

@@ -1,7 +1,7 @@
+use regex::Regex;
 use std::error::Error;
 use std::fs::{self, File};
 use std::io::Write;
-use regex::Regex;
 
 use crate::terms::Terms;
 
@@ -74,7 +74,10 @@ fn parse_markdown_link(context: String) -> String {
         };
 
         // Insert the HTML link
-        context_field.push_str(&format!("<a href='{}' target=\"_blank\">{}</a>", link, display_text));
+        context_field.push_str(&format!(
+            "<a href='{}' target=\"_blank\">{}</a>",
+            link, display_text
+        ));
 
         // Update the last_end to the end of the current match
         last_end = end;
@@ -85,7 +88,6 @@ fn parse_markdown_link(context: String) -> String {
 
     context_field
 }
-
 
 /// Builds a static HTML page using a template and the provided terms.
 ///

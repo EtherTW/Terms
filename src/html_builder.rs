@@ -5,6 +5,15 @@ use regex::Regex;
 
 use crate::terms::Terms;
 
+/// Generates an HTML table containing the terms and their translations.
+///
+/// # Arguments
+///
+/// * `terms` - A reference to the `Terms` struct containing the list of terms.
+///
+/// # Returns
+///
+/// A string representing the HTML table.
 fn generate_terms_table(terms: &Terms) -> String {
     let mut table = String::new();
     for term in &terms.terms {
@@ -25,7 +34,7 @@ fn generate_terms_table(terms: &Terms) -> String {
             ));
         }
         table.push_str(&format!(
-            "<td>{}</td>",
+            "<td> {} </td>",
             parse_markdown_link(term.context.clone().unwrap_or_default())
         ));
         table.push_str("</td>");
@@ -34,7 +43,15 @@ fn generate_terms_table(terms: &Terms) -> String {
     table
 }
 
-
+/// Parses markdown links in a string and converts them to HTML links.
+///
+/// # Arguments
+///
+/// * `context` - The string containing markdown links.
+///
+/// # Returns
+///
+/// A string with the markdown links converted to HTML links.
 fn parse_markdown_link(context: String) -> String {
     let re = Regex::new(r"\[([^\]]+)\]\(([^)]+)\)").unwrap();
     let mut last_end = 0;
@@ -69,6 +86,17 @@ fn parse_markdown_link(context: String) -> String {
     context_field
 }
 
+
+/// Builds a static HTML page using a template and the provided terms.
+///
+/// # Arguments
+///
+/// * `terms` - A reference to the `Terms` struct containing the list of terms.
+/// * `output_path` - The path to the output file.
+///
+/// # Returns
+///
+/// A `Result` indicating success or failure. If successful, `Ok(())` is returned.
 pub fn build_static_page(terms: &Terms, output_path: &str) -> Result<(), Box<dyn Error>> {
     let mut template = fs::read_to_string("build/template.html")?;
     let terms_table = generate_terms_table(terms);
@@ -77,7 +105,6 @@ pub fn build_static_page(terms: &Terms, output_path: &str) -> Result<(), Box<dyn
     write!(output_file, "{}", template)?;
     Ok(())
 }
-
 
 #[cfg(test)]
 mod tests {

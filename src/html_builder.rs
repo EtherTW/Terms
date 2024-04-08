@@ -1,6 +1,7 @@
 use std::error::Error;
 use std::fs::{self, File};
 use std::io::Write;
+use regex::Regex;
 
 use crate::terms::Terms;
 
@@ -25,12 +26,47 @@ fn generate_terms_table(terms: &Terms) -> String {
         }
         table.push_str(&format!(
             "<td>{}</td>",
-            term.context.clone().unwrap_or_default()
+            parse_markdown_link(term.context.clone().unwrap_or_default())
         ));
         table.push_str("</td>");
         table.push_str("</tr>\n");
     }
     table
+}
+
+
+fn parse_markdown_link(context: String) -> String {
+    let re = Regex::new(r"\[([^\]]+)\]\(([^)]+)\)").unwrap();
+    let mut last_end = 0;
+    let mut context_field = String::new();
+
+    for cap in re.captures_iter(&context) {
+        let link_text = &cap[1];
+        let link = &cap[2];
+        let start = cap.get(0).unwrap().start();
+        let end = cap.get(0).unwrap().end();
+
+        // Push the text up to the link
+        context_field.push_str(&context[last_end..start]);
+
+        // Shorten the link text if it is too long
+        let display_text = if link_text.len() > 10 {
+            format!("{}...", &link_text[..10])
+        } else {
+            link_text.to_string()
+        };
+
+        // Insert the HTML link
+        context_field.push_str(&format!("<a href='{}' target=\"_blank\">{}</a>", link, display_text));
+
+        // Update the last_end to the end of the current match
+        last_end = end;
+    }
+
+    // Append any remaining text after the last link
+    context_field.push_str(&context[last_end..]);
+
+    context_field
 }
 
 pub fn build_static_page(terms: &Terms, output_path: &str) -> Result<(), Box<dyn Error>> {
@@ -40,4 +76,17 @@ pub fn build_static_page(terms: &Terms, output_path: &str) -> Result<(), Box<dyn
     let mut output_file = File::create(output_path)?;
     write!(output_file, "{}", template)?;
     Ok(())
+}
+
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_parse_markdown_link() {
+        let context = "2 links in text [link](https://example.com) [link2](https://example2.com) and some more text.";
+        let expected = "2 links in text <a href='https://example.com' target=\"_blank\">link</a> <a href='https://example2.com' target=\"_blank\">link2</a> and some more text.";
+        assert_eq!(parse_markdown_link(context.to_string()), expected);
+    }
 }

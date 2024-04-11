@@ -85,7 +85,7 @@ term = "Bitcoin Improvement Proposals"
 tags = []
 translation = "比特幣改進提案"
 acronym = "BIPs"
-context = "https://github.com/bitcoin/bips"
+context = "[連結](https://github.com/bitcoin/bips)"
 
 [[terms]]
 term = "Block"
@@ -743,7 +743,7 @@ term = "Scalable Transparent Arguments of Knowledge"
 tags = []
 translation = "可擴展透明知識證明"
 acronym = "STARK"
-context = "來自論文 https://eprint.iacr.org/2018/046"
+context = "來自[論文](https://eprint.iacr.org/2018/046)"
 
 [[terms]]
 term = "Scaling"
@@ -871,8 +871,8 @@ term = "State pruning"
 tags = []
 translation = "狀態剪枝"
 context = """
-當以太坊狀態樹會隨著交易的發生而更動，更動時會產生新的狀態根以及讓樹上某些舊節點失效。狀態剪枝是刪除舊節點以節省硬碟使用的做法。
-https://blog.ethereum.org/2015/06/26/state-tree-pruning/"""
+當以太坊狀態樹會隨著交易的發生而更動，更動時會產生新的狀態根以及讓樹上某些舊節點失效。狀態剪枝是刪除舊節點以節省硬碟使用的做法。[連結](https://blog.ethereum.org/2015/06/26/state-tree-pruning/)
+"""
 
 [[terms]]
 term = "Storage"
@@ -995,7 +995,7 @@ translation = "錢包"
 term = "Warp sync"
 tags = []
 translation = "曲速同步"
-context = "https://openethereum.github.io/Warp-Sync-Snapshot-Format"
+context = "[連結](https://openethereum.github.io/Warp-Sync-Snapshot-Format)"
 
 [[terms]]
 term = "Web3"

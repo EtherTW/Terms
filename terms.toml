@@ -386,7 +386,7 @@ tags = []
 translation = "最終性"
 
 [[terms]]
-term = "Finalized checkpoint"
+term = "Finalized Checkpoint"
 tags = []
 translation = "定案的檢查點"
 

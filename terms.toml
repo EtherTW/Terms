@@ -386,7 +386,7 @@ tags = []
 translation = "最終性"
 
 [[terms]]
-term = "finalized checkpoint"
+term = "Finalized checkpoint"
 tags = []
 translation = "定案的檢查點"
 
@@ -502,7 +502,7 @@ tags = []
 translation = "互通性"
 
 [[terms]]
-term = "justified checkpoint"
+term = "Justified Checkpoint"
 tags = []
 translation = "準定案的檢查點"
 

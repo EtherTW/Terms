@@ -210,6 +210,11 @@ tags = []
 translation = "一致性"
 
 [[terms]]
+term = "Constant Product AMM"
+tags = []
+translation = "恆定乘積造市者"
+
+[[terms]]
 term = "Constantinople fork"
 tags = []
 translation = "君士坦丁堡升級"
@@ -381,6 +386,11 @@ tags = []
 translation = "最終性"
 
 [[terms]]
+term = "Finalized Checkpoint"
+tags = []
+translation = "定案的檢查點"
+
+[[terms]]
 term = "Fork"
 tags = []
 translation = "分叉"
@@ -485,6 +495,16 @@ translation = "無常損失"
 term = "Internal transaction"
 tags = []
 translation = "內部交易"
+
+[[terms]]
+term = "Interoperability"
+tags = []
+translation = "互通性"
+
+[[terms]]
+term = "Justified Checkpoint"
+tags = []
+translation = "準定案的檢查點"
 
 [[terms]]
 term = "Keccak-256"
@@ -751,6 +771,11 @@ tags = []
 translation = "擴展"
 
 [[terms]]
+term = "Scaling, Scalability"
+tags = []
+translation = "擴展, 可擴展性"
+
+[[terms]]
 term = "Secure Hash Algorithm"
 tags = []
 translation = "安全雜湊演算法"
@@ -860,6 +885,11 @@ translation = "質押池"
 term = "State channels"
 tags = []
 translation = "狀態通道"
+
+[[terms]]
+term = "State Diff"
+tags = []
+translation = "狀態差異"
 
 [[terms]]
 term = "State machine"

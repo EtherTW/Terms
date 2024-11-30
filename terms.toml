@@ -61,6 +61,11 @@ tags = []
 translation = "基本費用"
 
 [[terms]]
+term = "Based Rollup"
+tags = []
+translation = "由以太坊(L1)排序的 Rollup"
+
+[[terms]]
 term = "Beacon Chain"
 tags = []
 translation = "信標鏈"
@@ -316,7 +321,7 @@ acronym = "ECDSA"
 
 [[terms]]
 term = "Epoch"
-tags = ["Consensus"]
+tags = ["protocol"]
 translation = "時期"
 
 [[terms]]
@@ -407,7 +412,7 @@ translation = "分叉"
 
 [[terms]]
 term = "Fraud proof"
-tags = []
+tags = ["optimistic rollup"]
 translation = "詐欺證明"
 
 [[terms]]
@@ -432,17 +437,17 @@ translation = "全節點"
 
 [[terms]]
 term = "Gas"
-tags = []
+tags = ["protocol"]
 translation = "Gas"
 
 [[terms]]
 term = "Gas limit"
-tags = []
+tags = ["protocol"]
 translation = "燃料限制"
 
 [[terms]]
 term = "Genesis"
-tags = []
+tags = ["protocol"]
 translation = "創世區塊"
 
 [[terms]]
@@ -463,7 +468,7 @@ acronym = "GHOST"
 
 [[terms]]
 term = "Gwei"
-tags = []
+tags = ["protocol"]
 translation = "Gwei"
 
 [[terms]]
@@ -536,6 +541,11 @@ translation = "密鑰存儲檔案"
 term = "Last-in-first-out"
 tags = []
 translation = "後進先出法"
+
+[[terms]]
+term = "Lattice"
+tags = ["cryptography"]
+translation = "晶格"
 
 [[terms]]
 term = "Launchpad"
@@ -1042,8 +1052,13 @@ tags = []
 translation = "Validium"
 
 [[terms]]
+term = "Verifiable Information Dispersal"
+tags = ["cryptography"]
+translation = "可驗證的訊息傳播"
+
+[[terms]]
 term = "VPU(Verifiable Processing Unit)"
-tags = []
+tags = ["cryptography"]
 translation = "可驗證處理單元"
 
 [[terms]]

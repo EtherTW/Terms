@@ -154,6 +154,11 @@ tags = []
 translation = "客戶端"
 
 [[terms]]
+term = "Co-processor"
+tags = []
+translation = "協同處理器"
+
+[[terms]]
 term = "Collateral"
 tags = []
 translation = "抵押品"
@@ -162,6 +167,11 @@ translation = "抵押品"
 term = "Collectible"
 tags = []
 translation = "收藏集"
+
+[[terms]]
+term = "Commitment"
+tags = []
+translation = "承諾"
 
 [[terms]]
 term = "Committee"
@@ -660,6 +670,11 @@ tags = []
 translation = "操作碼"
 
 [[terms]]
+term = "Operator"
+tags = []
+translation = "運營商"
+
+[[terms]]
 term = "Optimistic rollup"
 tags = []
 translation = "樂觀卷疊"
@@ -795,6 +810,11 @@ translation = "種子助記詞"
 term = "Sender"
 tags = []
 translation = "發送者"
+
+[[terms]]
+term = "Sequencer"
+tags = []
+translation = "排序器"
 
 [[terms]]
 term = "Serenity"
@@ -1010,6 +1030,11 @@ translation = "有效性證明"
 term = "Validium"
 tags = []
 translation = "Validium"
+
+[[terms]]
+term = "VPU(Verifiable Processing Unit)"
+tags = []
+translation = "可驗證處理單元"
 
 [[terms]]
 term = "Vyper"

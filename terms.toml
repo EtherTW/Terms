@@ -221,12 +221,7 @@ translation = "一致性"
 
 [[terms]]
 term = "Constant Product AMM"
-tags = []
-translation = "恆定乘積造市者"
-
-[[terms]]
-term = "Constant Product AMM"
-tags = []
+tags = ["defi"]
 translation = "恆定乘積造市者"
 
 [[terms]]
@@ -321,7 +316,7 @@ acronym = "ECDSA"
 
 [[terms]]
 term = "Epoch"
-tags = []
+tags = ["Consensus"]
 translation = "時期"
 
 [[terms]]

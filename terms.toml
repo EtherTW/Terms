@@ -225,6 +225,11 @@ tags = []
 translation = "恆定乘積造市者"
 
 [[terms]]
+term = "Constant Product AMM"
+tags = []
+translation = "恆定乘積造市者"
+
+[[terms]]
 term = "Constantinople fork"
 tags = []
 translation = "君士坦丁堡升級"
@@ -791,6 +796,11 @@ tags = []
 translation = "擴展, 可擴展性"
 
 [[terms]]
+term = "Scaling, Scalability"
+tags = []
+translation = "擴展, 可擴展性"
+
+[[terms]]
 term = "Secure Hash Algorithm"
 tags = []
 translation = "安全雜湊演算法"
@@ -905,6 +915,11 @@ translation = "質押池"
 term = "State channels"
 tags = []
 translation = "狀態通道"
+
+[[terms]]
+term = "State Diff"
+tags = []
+translation = "狀態差異"
 
 [[terms]]
 term = "State Diff"

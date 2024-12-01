@@ -17,3 +17,7 @@ description = "Ethereum Protocol"
 [[tags]]
 id = "layer2"
 description = "Layer 2"
+
+[[tags]]
+id = "cryptography"
+description = "Cryptography"

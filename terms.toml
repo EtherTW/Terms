@@ -61,6 +61,11 @@ tags = []
 translation = "基本費用"
 
 [[terms]]
+term = "Based Rollup"
+tags = []
+translation = "由 L1 排序的 Rollup"
+
+[[terms]]
 term = "Beacon Chain"
 tags = []
 translation = "信標鏈"
@@ -154,6 +159,11 @@ tags = []
 translation = "客戶端"
 
 [[terms]]
+term = "Co-processor"
+tags = []
+translation = "協同處理器"
+
+[[terms]]
 term = "Collateral"
 tags = []
 translation = "抵押品"
@@ -162,6 +172,11 @@ translation = "抵押品"
 term = "Collectible"
 tags = []
 translation = "收藏集"
+
+[[terms]]
+term = "Commitment"
+tags = []
+translation = "承諾"
 
 [[terms]]
 term = "Committee"
@@ -211,7 +226,7 @@ translation = "一致性"
 
 [[terms]]
 term = "Constant Product AMM"
-tags = []
+tags = ["defi"]
 translation = "恆定乘積造市者"
 
 [[terms]]
@@ -306,7 +321,7 @@ acronym = "ECDSA"
 
 [[terms]]
 term = "Epoch"
-tags = []
+tags = ["protocol"]
 translation = "時期"
 
 [[terms]]
@@ -386,7 +401,7 @@ tags = []
 translation = "最終性"
 
 [[terms]]
-term = "Finalized Checkpoint"
+term = "finalized checkpoint"
 tags = []
 translation = "定案的檢查點"
 
@@ -422,17 +437,17 @@ translation = "全節點"
 
 [[terms]]
 term = "Gas"
-tags = []
+tags = ["protocol"]
 translation = "Gas"
 
 [[terms]]
 term = "Gas limit"
-tags = []
+tags = ["protocol"]
 translation = "燃料限制"
 
 [[terms]]
 term = "Genesis"
-tags = []
+tags = ["protocol"]
 translation = "創世區塊"
 
 [[terms]]
@@ -453,7 +468,7 @@ acronym = "GHOST"
 
 [[terms]]
 term = "Gwei"
-tags = []
+tags = ["protocol"]
 translation = "Gwei"
 
 [[terms]]
@@ -502,7 +517,7 @@ tags = []
 translation = "互通性"
 
 [[terms]]
-term = "Justified Checkpoint"
+term = "justified checkpoint"
 tags = []
 translation = "準定案的檢查點"
 
@@ -526,6 +541,11 @@ translation = "密鑰存儲檔案"
 term = "Last-in-first-out"
 tags = []
 translation = "後進先出法"
+
+[[terms]]
+term = "Lattice"
+tags = ["cryptography"]
+translation = "晶格"
 
 [[terms]]
 term = "Launchpad"
@@ -660,6 +680,11 @@ tags = []
 translation = "操作碼"
 
 [[terms]]
+term = "Operator"
+tags = []
+translation = "運營商"
+
+[[terms]]
 term = "Optimistic rollup"
 tags = []
 translation = "樂觀卷疊"
@@ -776,6 +801,11 @@ tags = []
 translation = "擴展, 可擴展性"
 
 [[terms]]
+term = "Scaling, Scalability"
+tags = []
+translation = "擴展, 可擴展性"
+
+[[terms]]
 term = "Secure Hash Algorithm"
 tags = []
 translation = "安全雜湊演算法"
@@ -795,6 +825,11 @@ translation = "種子助記詞"
 term = "Sender"
 tags = []
 translation = "發送者"
+
+[[terms]]
+term = "Sequencer"
+tags = []
+translation = "排序器"
 
 [[terms]]
 term = "Serenity"
@@ -885,6 +920,11 @@ translation = "質押池"
 term = "State channels"
 tags = []
 translation = "狀態通道"
+
+[[terms]]
+term = "State Diff"
+tags = []
+translation = "狀態差異"
 
 [[terms]]
 term = "State Diff"
@@ -1010,6 +1050,16 @@ translation = "有效性證明"
 term = "Validium"
 tags = []
 translation = "Validium"
+
+[[terms]]
+term = "Verifiable Information Dispersal"
+tags = ["cryptography"]
+translation = "可驗證的訊息傳播"
+
+[[terms]]
+term = "VPU(Verifiable Processing Unit)"
+tags = ["cryptography"]
+translation = "可驗證處理單元"
 
 [[terms]]
 term = "Vyper"

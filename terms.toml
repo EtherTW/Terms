@@ -63,7 +63,7 @@ translation = "基本費用"
 [[terms]]
 term = "Based Rollup"
 tags = []
-translation = "由以太坊(L1)排序的 Rollup"
+translation = "由 L1 排序的 Rollup"
 
 [[terms]]
 term = "Beacon Chain"

@@ -796,14 +796,9 @@ tags = []
 translation = "擴展"
 
 [[terms]]
-term = "Scaling, Scalability"
+term = "Scalability"
 tags = []
-translation = "擴展, 可擴展性"
-
-[[terms]]
-term = "Scaling, Scalability"
-tags = []
-translation = "擴展, 可擴展性"
+translation = "可擴展性"
 
 [[terms]]
 term = "Secure Hash Algorithm"
@@ -1111,3 +1106,68 @@ translation = "零知識證明卷軸"
 term = "Zooko's triangle"
 tags = []
 translation = "Zooko 三角"
+
+[[terms]]
+term = "Subname"
+tags = ["ens"]
+translation = "子域名"
+
+[[terms]]
+term = "Decentralization"
+tags = []
+translation = "去中心化"
+
+[[terms]]
+term = "Permissionless"
+tags = []
+translation = "無許可"
+
+[[terms]]
+term = "Credibly Neutral"
+tags = []
+translation = "可信中立"
+
+[[terms]]
+term = "Chain Identifier"
+tags = []
+translation = "鏈標識符"
+
+[[terms]]
+term = "Single Point of Failure"
+tags = []
+translation = "單點故障"
+
+[[terms]]
+term = "Top-level Domain, TLD"
+tags = ["ens"]
+translation = "頂級域名"
+
+[[terms]]
+term = "Chain Abstraction"
+tags = []
+translation = "鏈抽象"
+
+[[terms]]
+term = "Protocol"
+tags = []
+translation = "協議"
+
+[[terms]]
+term = "L2 Agnostic"
+tags = ["rollup", "l2", "ens"]
+translation = "L2 未知論"
+
+[[terms]]
+term = "Registry"
+tags = ["ens"]
+translation = "註冊表"
+
+[[terms]]
+term = "Resolver"
+tags = ["ens"]
+translation = "解析器"
+
+[[terms]]
+term = "Rollup Centric"
+tags = ["rollup", "l2"]
+translation = "卷軸中心"

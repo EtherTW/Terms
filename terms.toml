@@ -373,7 +373,7 @@ acronym = "EIPs"
 
 [[terms]]
 term = "Ethereum Name Service"
-tags = []
+tags = ["ens"]
 translation = "以太坊域名服務"
 acronym = "ENS"
 
@@ -815,7 +815,7 @@ translation = "解析器"
 
 [[terms]]
 term = "Rollup"
-tags = []
+tags = ["rollup", "l2"]
 translation = "卷軸"
 
 [[terms]]

@@ -17,15 +17,22 @@ pub struct Terms {
     pub terms: Vec<Term>,
 }
 
-#[derive(Debug, Deserialize, Serialize, PartialEq)]
+#[derive(Debug, Deserialize, Serialize, Clone, PartialEq)]
 pub struct Tag {
     pub id: String,
     pub description: String,
 }
 
-#[derive(Debug, Deserialize, Serialize, PartialEq)]
+#[derive(Debug, Deserialize, Serialize, Clone, PartialEq)]
 pub struct Tags {
     pub tags: Vec<Tag>,
+}
+
+/// Generic utility function to serialize any Serialize type to a TOML file
+pub fn to_file<T: Serialize>(data: &T, path: &str) -> Result<(), Box<dyn Error>> {
+    let contents = to_string(data)?;
+    write(path, contents)?;
+    Ok(())
 }
 
 impl Terms {
@@ -52,12 +59,6 @@ impl Terms {
         self.terms
             .sort_by(|a, b| a.term.to_lowercase().cmp(&b.term.to_lowercase()));
     }
-
-    pub fn to_file(&self, path: &str) -> Result<(), Box<dyn Error>> {
-        let contents = to_string(self)?;
-        write(path, contents)?;
-        Ok(())
-    }
 }
 
 impl Tags {
@@ -74,5 +75,10 @@ impl Tags {
             }
         }
         false
+    }
+
+    pub fn sort_tags(&mut self) {
+        self.tags
+            .sort_by(|a, b| a.id.to_lowercase().cmp(&b.id.to_lowercase()));
     }
 }

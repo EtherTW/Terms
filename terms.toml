@@ -63,7 +63,7 @@ translation = "基本費用"
 [[terms]]
 term = "Based Rollup"
 tags = []
-translation = "由 L1 排序的 Rollup"
+translation = "由 L1 排序的卷軸"
 
 [[terms]]
 term = "Beacon Chain"
@@ -147,6 +147,16 @@ term = "Centralized exchanges"
 tags = []
 translation = "中央化交易所"
 acronym = "CEX"
+
+[[terms]]
+term = "Chain Abstraction"
+tags = []
+translation = "鏈抽象"
+
+[[terms]]
+term = "Chain Identifier"
+tags = []
+translation = "鏈標識符"
 
 [[terms]]
 term = "Chaumian Blinding"
@@ -245,6 +255,11 @@ tags = []
 translation = "合約創建交易"
 
 [[terms]]
+term = "Credibly Neutral"
+tags = []
+translation = "可信中立"
+
+[[terms]]
 term = "Crosslink"
 tags = []
 translation = "交聯"
@@ -263,6 +278,11 @@ translation = "密碼經濟學"
 term = "Dai"
 tags = []
 translation = "Dai"
+
+[[terms]]
+term = "Decentralization"
+tags = []
+translation = "去中心化"
 
 [[terms]]
 term = "Decentralized application"
@@ -353,7 +373,7 @@ acronym = "EIPs"
 
 [[terms]]
 term = "Ethereum Name Service"
-tags = []
+tags = ["ens"]
 translation = "以太坊域名服務"
 acronym = "ENS"
 
@@ -538,6 +558,11 @@ tags = []
 translation = "密鑰存儲檔案"
 
 [[terms]]
+term = "L2 Agnostic"
+tags = ["rollup", "l2", "ens"]
+translation = "L2 中立"
+
+[[terms]]
 term = "Last-in-first-out"
 tags = []
 translation = "後進先出法"
@@ -687,12 +712,17 @@ translation = "運營商"
 [[terms]]
 term = "Optimistic rollup"
 tags = []
-translation = "樂觀卷疊"
+translation = "樂觀卷軸"
 
 [[terms]]
 term = "Oracle"
 tags = []
 translation = "預言機"
+
+[[terms]]
+term = "Permissionless"
+tags = []
+translation = "無許可"
 
 [[terms]]
 term = "Plasma"
@@ -733,6 +763,11 @@ tags = ["protocol"]
 translation = "區塊發佈者"
 
 [[terms]]
+term = "Protocol"
+tags = []
+translation = "協議"
+
+[[terms]]
 term = "Prysm"
 tags = []
 translation = "Prysm"
@@ -769,9 +804,24 @@ tags = []
 translation = "冗餘"
 
 [[terms]]
+term = "Registry"
+tags = ["ens"]
+translation = "註冊表"
+
+[[terms]]
+term = "Resolver"
+tags = ["ens"]
+translation = "解析器"
+
+[[terms]]
 term = "Rollup"
-tags = []
-translation = "Rollup"
+tags = ["rollup", "l2"]
+translation = "卷軸"
+
+[[terms]]
+term = "Rollup Centric"
+tags = ["rollup", "l2"]
+translation = "卷軸中心"
 
 [[terms]]
 term = "RPC"
@@ -784,6 +834,11 @@ tags = ["mev"]
 translation = "三明治夾擊"
 
 [[terms]]
+term = "Scalability"
+tags = []
+translation = "可擴展性"
+
+[[terms]]
 term = "Scalable Transparent Arguments of Knowledge"
 tags = []
 translation = "可擴展透明知識證明"
@@ -794,16 +849,6 @@ context = "來自[論文](https://eprint.iacr.org/2018/046)"
 term = "Scaling"
 tags = []
 translation = "擴展"
-
-[[terms]]
-term = "Scaling, Scalability"
-tags = []
-translation = "擴展, 可擴展性"
-
-[[terms]]
-term = "Scaling, Scalability"
-tags = []
-translation = "擴展, 可擴展性"
 
 [[terms]]
 term = "Secure Hash Algorithm"
@@ -855,6 +900,11 @@ translation = "空部位"
 term = "Sidechain"
 tags = []
 translation = "側鏈"
+
+[[terms]]
+term = "Single Point of Failure"
+tags = []
+translation = "單點故障"
 
 [[terms]]
 term = "Slash, Slashing"
@@ -955,6 +1005,11 @@ tags = []
 translation = "強型別"
 
 [[terms]]
+term = "Subname"
+tags = ["ens"]
+translation = "子域名"
+
+[[terms]]
 term = "Succinct non-interactive argument of knowledge"
 tags = []
 translation = "簡潔無互動知識證明"
@@ -1004,6 +1059,11 @@ translation = "時間戳記"
 term = "Token"
 tags = []
 translation = "代幣"
+
+[[terms]]
+term = "Top-level Domain, TLD"
+tags = ["ens"]
+translation = "頂級域名"
 
 [[terms]]
 term = "Transaction"
@@ -1105,7 +1165,7 @@ translation = "零地址"
 [[terms]]
 term = "Zero-knowledge rollup"
 tags = []
-translation = "零知識證明卷疊"
+translation = "零知識證明卷軸"
 
 [[terms]]
 term = "Zooko's triangle"

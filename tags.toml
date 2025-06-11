@@ -1,23 +1,35 @@
 [[tags]]
-id = "mev"
-description = "Maximal extractable value"
-
-[[tags]]
-id = "zk"
-description = "Zero Knowledge Proofs"
+id = "cryptography"
+description = "Cryptography"
 
 [[tags]]
 id = "defi"
 description = "Decentralized Finance"
 
 [[tags]]
-id = "protocol"
-description = "Ethereum Protocol"
+id = "ens"
+description = "Ethereum Name Service"
+
+[[tags]]
+id = "l2"
+description = "Layer 2"
 
 [[tags]]
 id = "layer2"
 description = "Layer 2"
 
 [[tags]]
-id = "cryptography"
-description = "Cryptography"
+id = "mev"
+description = "Maximal extractable value"
+
+[[tags]]
+id = "protocol"
+description = "Ethereum Protocol"
+
+[[tags]]
+id = "rollup"
+description = "Rollup"
+
+[[tags]]
+id = "zk"
+description = "Zero Knowledge Proofs"

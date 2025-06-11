@@ -5,9 +5,7 @@ mod html_builder;
 mod terms;
 
 use html_builder::build_static_page;
-use terms::{Tags, Terms};
-
-use crate::terms::to_file;
+use terms::{Tags, Terms, ToFile};
 
 fn main() -> Result<(), Box<dyn Error>> {
     let args: Vec<String> = env::args().collect();
@@ -33,9 +31,9 @@ fn main() -> Result<(), Box<dyn Error>> {
         terms.check_all_tags(tags)?;
     } else {
         terms.sort_terms();
-        to_file(&terms, terms_path)?;
+        terms.to_file(terms_path)?;
         tags.sort_tags();
-        to_file(&tags, tags_path)?;
+        tags.to_file(tags_path)?;
 
         build_static_page(&terms, "build/index.html")?;
     }

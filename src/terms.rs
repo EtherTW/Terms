@@ -3,6 +3,16 @@ use std::error::Error;
 use std::fs::{read_to_string, write};
 use toml::{from_str, to_string};
 
+pub trait ToFile: Serialize {
+    fn to_file(&self, path: &str) -> Result<(), Box<dyn Error>> {
+        let contents = to_string(self)?;
+        write(path, contents)?;
+        Ok(())
+    }
+}
+
+impl<T: Serialize> ToFile for T {}
+
 #[derive(Debug, Deserialize, Serialize, Clone, PartialEq)]
 pub struct Term {
     pub term: String,
@@ -26,13 +36,6 @@ pub struct Tag {
 #[derive(Debug, Deserialize, Serialize, Clone, PartialEq)]
 pub struct Tags {
     pub tags: Vec<Tag>,
-}
-
-/// Generic utility function to serialize any Serialize type to a TOML file
-pub fn to_file<T: Serialize>(data: &T, path: &str) -> Result<(), Box<dyn Error>> {
-    let contents = to_string(data)?;
-    write(path, contents)?;
-    Ok(())
 }
 
 impl Terms {

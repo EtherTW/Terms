@@ -6,7 +6,7 @@ use std::{
 use regex::Regex;
 use serde::Deserialize;
 use serde_xml_rs::from_str;
-use terms::terms::{Term, Terms};
+use terms::terms::{Term, Terms, ToFile};
 
 #[derive(Debug, Deserialize)]
 struct LangSet {
